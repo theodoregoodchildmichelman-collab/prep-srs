@@ -1,7 +1,7 @@
 {
  "meta": {
-  "next_c": 60,
-  "next_v": 24,
+  "next_c": 62,
+  "next_v": 26,
   "updated": "2026-11-03",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
@@ -448,10 +448,18 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-04",
    "history": "✘ Lesson #13; ½ Lesson #14 (rule wrong); ½ Nov 1 (conf 2; pacing only \"2 minutes\"; hedge-overreach and half right missing); **½ Nov 2 (cold, conf 2.7):** pacing given as 2:00 / 100 s / 160 s in one answer (the rule is about 1:20 average, pick-flag-move at 2:00, never blank); traps: too strong ✔, restates ✔, necessary/sufficient (converse/inverse) ✔; the hedge trap given reversed (\"always → sometimes\"); half right missing (he said he did not remember the last one). Retest cold Tue.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "½",
+     "lesson": 19,
+     "conf": "unsure",
+     "note": "five traps all right (hedge, too strong, restates, nec/suff swap, half right); pacing wrong again: said 100 s / 2 min / 3 min move on. Correct: ~1:20 avg, pick-flag-move at 2:00, never blank"
+    }
+   ],
    "status": "active"
   },
   {
@@ -585,13 +593,20 @@
    "track": "W",
    "q": "Who imposed the 1973 oil embargo, against whom and why? What happened to the price, and in supply-and-demand terms what shifted?",
    "a": "The Arab members of OPEC (OAPEC), led by Saudi Arabia, embargoed the US and some allies after the **Yom Kippur War of 1973** (Egypt and Syria attacked Israel; the US backed Israel) for backing Israel. Prices roughly quadrupled; long gas lines. Supply shifted left; demand did not shift, and buyers slid up along it. Short-run oil demand is inelastic, so the price jumped by more than the quantity fell (E4). A paucity of oil. The Six-Day War was 1967, six years earlier.",
-   "box": 1,
-   "warn": 1,
+   "box": 2,
+   "warn": 0,
    "created": "2026-10-16 (Lesson #13)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-06",
    "history": "½ Lessons #13, #15, #16 (reason and size missing); ½ ⚠️ Nov 1 (the cause given as the Six-Day War). **Nov 2 (cold, conf 2.9): ✔** the Arab OPEC members led by Saudi Arabia, the US, the Yom Kippur War of 1973, price about 4× (the supply/demand shift was not asked). First correct run; the ⚠️ stays until a second. Box 1.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "✔",
+     "lesson": 19,
+     "note": "second clean run: Arab OPEC/Saudi, US, Yom Kippur, 4x, supply left, demand stays (slid along). Said 'cut in half' (invented figure). No confidence given."
+    }
+   ],
    "status": "active"
   },
   {
@@ -630,10 +645,18 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
-   "last_tested": "",
-   "next_due": "2026-10-20",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-04",
    "history": "seeded by the GV1 set (item 3 ✘ at conf 3: *preclude* for *vitiate*, no predicted word). Lesson #15: the forged-seal cloze ✔ in the V slot (not a scheduled test). Extended to two blanks in C059.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "½",
+     "lesson": 19,
+     "conf": "sure",
+     "note": "vitiate right at once; could not name the three steps ('no idea what text completion means'), no own-word prediction mentioned"
+    }
+   ],
    "status": "active"
   },
   {
@@ -644,10 +667,18 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
-   "last_tested": "",
-   "next_due": "2026-10-20",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-04",
    "history": "seeded by the Lesson #14 L29 item ✔3. Original item. The same pattern ✔ on Nov 1 (visa officers).",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "½",
+     "lesson": 19,
+     "conf": "sure",
+     "note": "Harbor got no grant: chain right. Did not explain why 'would have received it if on time' is wrong (on time is only necessary, not sufficient)"
+    }
+   ],
    "status": "active"
   },
   {
@@ -714,10 +745,18 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
-   "last_tested": "",
-   "next_due": "2026-10-22",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-04",
    "history": "seeded by the Lesson #16 check ✔; explain-back ½ (two parts of the soul, not three; \"even if no one finds out\" missing).",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "½",
+     "lesson": 19,
+     "conf": "sure",
+     "note": "three kinds right; placed justice in the 'effects only' kind (Glaucon wants it in kind 3, both; Socrates argues it belongs there). Socrates: three parts, ruled by desire, ring can't touch it, ok"
+    }
+   ],
    "status": "active"
   },
   {
@@ -753,13 +792,21 @@
    "track": "L",
    "q": "\"Everyone agrees that a government should not spend money on projects whose benefits go mainly to people who are already wealthy. The proposed Harbor Tunnel would be paid for entirely out of public funds. Thus, the government should not build the Harbor Tunnel.\" What is the conclusion, what is the gap (a term shift), and what is the necessary assumption? Why is \"the tunnel would be paid for entirely out of public funds\" a trap?",
    "a": "Conclusion: the government should not build the Harbor Tunnel (the clause after \"Thus\"). Gap: the rule is about who BENEFITS; the evidence is about who PAYS. Necessary assumption: the tunnel's benefits would go mainly to people who are already wealthy. Negation: the benefits would not go mainly to the wealthy, so the rule does not apply and the conclusion collapses. \"Paid entirely out of public funds\" restates the premise (trap type 4). Look for a term in the conclusion or the rule that the premises never mention.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
-   "last_tested": "",
-   "next_due": "2026-11-02",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-06",
    "history": "seeded by the TL1 Q1 ✔ (conclusion, assumption, \"public funds\" called a red herring; about 75 seconds). Original item.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "✔",
+     "lesson": 19,
+     "conf": "sure",
+     "note": "conclusion (first said the assumption, self-corrected), assumption right; gap stated as a question, pays vs benefits term shift not named"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1146,13 +1193,22 @@
    "use": "praise for judgment (a sagacious adviser); the noun is *sagacity*; a touch more practical than \"wise\".",
    "confusable": "salacious (lewd), sapient (wise, more intellectual), sage",
    "example": "Plato presents Socrates as the sagacious figure who sees that the man ruled by his appetites is not free.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-06",
    "history": "used correctly in the Lesson #16 explain-back (a playful tone; fine). Test as define + contrast vs. *salacious*.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "✔",
+     "lesson": 19,
+     "conf": "sure",
+     "format": "define-contrast",
+     "note": "wise ok; salacious = lewd, not just interesting (dirty-secret feel is near)"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1197,13 +1253,22 @@
    "use": "a verb; the adjective *equivocal* means ambiguous or noncommittal; not \"equivocal\" for \"equal\".",
    "confusable": "prevaricate (dodge the truth), vacillate (swing between positions), unequivocal (the opposite: clear)",
    "example": "Asked \"will you raise taxes?\", a politician who answers \"I'll protect the middle class\" is equivocating.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-06",
    "history": "✔ in GV2 item 1 (blank (i): the candidate chose to *equivocate*; right on first read). Not used in the explain-back (he used none of the day's words). Test as produce or discriminate vs. *prevaricate*.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "✔",
+     "lesson": 19,
+     "conf": "sure",
+     "format": "define-contrast",
+     "note": "meaning right; prevaricate = dodge or stretch the truth, not hesitation"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1214,12 +1279,83 @@
    "use": "of remarks, ideas, arguments (a fatuous bridge restates the premise); the noun is *fatuity*.",
    "confusable": "facetious (joking), futile (useless), vacuous",
    "example": "A \"bridge\" that just restates the premise (\"strong bridges are strong\") is fatuous.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-03",
+   "next_due": "2026-11-06",
    "history": "✔ in GV2 item 3 blank (i) after correction (first said *spurious*, which was not a choice); his question \"how can something fatuous contain something trenchant?\" was answered (the critics' verdict; \"although… even they conceded\"). Test as define + contrast vs. *facetious*.",
+   "log": [
+    {
+     "date": "2026-11-03",
+     "result": "✔",
+     "lesson": 19,
+     "conf": "sure",
+     "format": "define-contrast",
+     "note": "smug silliness right; facetious = flippantly joking at the wrong time"
+    }
+   ],
+   "status": "active"
+  },
+  {
+   "id": "C060",
+   "track": "E",
+   "box": 1,
+   "warn": 0,
+   "q": "A town's grain sells 100 sacks at 10 coins. A ceiling of 6 cuts supply to 60 sacks while buyers want 140. Name the 80-sack gap, the 40 lost trades, and say what deadweight loss is.",
+   "a": "The 80-sack gap is a shortage (a paucity at the capped price): 140 wanted minus 60 supplied. It splits into 40 sacks that used to trade (100 to 60, the lost trades) plus 40 from new buyers the low price pulled in. Deadweight loss is the surplus (gains, in coins) from the lost trades: farmer and buyer would both have gained and no longer trade. A ceiling below equilibrium makes a shortage; a floor above it makes a surplus (a plethora).",
+   "created": "2026-11-03 (Lesson #19)",
+   "last_tested": "",
+   "next_due": "2026-11-04",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C061",
+   "track": "E",
+   "box": 1,
+   "warn": 0,
+   "q": "Who bears most of a tax, and does it matter who legally pays it? How does elasticity change the deadweight loss?",
+   "a": "The less elastic side (the one that cannot easily walk away) bears more of the tax; it does not matter who legally pays, since a tax on sellers and a tax on buyers split the cost the same way. If buyers are inelastic they keep buying, few trades vanish and the deadweight loss is small. If buyers can switch (rice), many trades vanish and the deadweight loss is large.",
+   "created": "2026-11-03 (Lesson #19)",
+   "last_tested": "",
+   "next_due": "2026-11-04",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V024",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "onerous",
+   "meaning": "burdensome; of a duty, tax or obligation",
+   "use": "an onerous tax, onerous terms; stronger than merely hard",
+   "confusable": "onus (a burden, a noun), onorous is not a word",
+   "example": "A price ceiling can be onerous to farmers who are forced to sell below cost.",
+   "created": "2026-11-03 (Lesson #19)",
+   "last_tested": "",
+   "next_due": "2026-11-04",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V025",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "pernicious",
+   "meaning": "gradually and subtly harmful; destructive in a hidden or slow way",
+   "use": "of policies, effects, habits; quiet damage, not sudden",
+   "confusable": "perilous (dangerous right now), pervicacious (stubborn)",
+   "example": "A tax that looks small but quietly wrecks trade is pernicious.",
+   "created": "2026-11-03 (Lesson #19)",
+   "last_tested": "",
+   "next_due": "2026-11-04",
+   "history": "",
    "log": [],
    "status": "active"
   }

@@ -2,6 +2,16 @@
 
 _Moved verbatim from the "Lesson history" section of `claude/04-lesson-log.md` (version of 2026-11-02) to keep that doc short. Newest first. Per-card details are in `cards.json` (the history field); the per-lesson learner notes for Lessons #1–#13 are in `01-learner-profile-lesson-notes-to-lesson-13.md`._
 
+### Lesson #17 · Sun 2026-11-01 · L track: L15 necessary assumption (a weekend make-up lesson, ~60 min planned); Block B: TL1 (timed LSAT LR)
+- Scheduling: he asked for a 60-minute lesson "to get back in the groove" after missing the Oct 22–30 lessons; held in two sittings, 12:35–13:05 and 18:57–19:15 local (about 50 active minutes). Q4 (weighted averages, the Thu Oct 22 unit) was deferred to Thu Nov 5; L15 was pulled forward from its Oct 26 slot because it is his biggest PT 1 weakness. Reminders shown: A02 and A03 overdue (A03: no answer). Before the lesson, at his request: GRE, LSAT and FSOT test logistics checked (see `07`); he confirmed his ETS account exists and a practice GRE is ready to take.
+- Recall (rounds 1–2, 5 cards): C040 ✔ 2.7 (6 days; +50%; −33%), C038 + C053 ✔ 2.7 (gap: the new riders may be walkers or people who would not have come; the conclusion stated with the cause folded in), C032 ½ 2 (pacing only "2 minutes"; hedge-overreach and half right missing), C042 ½ ⚠️ 2.7 (the cause given as the Six-Day War ✘; the size missing), C050 ✔ 2.6. V slot: V016, V018, V012 ✔.
+- Pretest (Varna weekend car ban): conclusion ✔, gap ✔ (another cause: shop prices up 12%); conf 2.5.
+- Core (L15): two lines before any choice (the conclusion = the clause after "so"; the gap = the step from the evidence to the conclusion); prephrase as the negation of your alternative; the negation test; necessary assumptions are weak ("at least some", "not entirely"); words *ostensible*, *trenchant*.
+- Check (Dalton mentoring program): conclusion direction reversed (a dictation slip), gap ✔, A ✔ 2.7; follow-up ✔ (C is the restated premise; the opposite of "fewer" is "not fewer"). Practice, faded (consulate passport portal): conclusion with the premise folded in, gap ✔, A ✔.
+- Block B (TL1): a 5-minute mini-lesson on C032, then a 3-item set, 3/3 (Harbor Tunnel term-shift ✔ A at about 75 s; rebuttal main point ✔ E at about 75 s, his written conclusion dropped the hedge "need not"; visa-officer chain ✔ A).
+- New cards: C054–C056; V020–V021.
+- Length taken: about 50 active minutes against ~60 planned.
+
 ### Lesson #16 · Wed 2026-10-21 · P3 Plato's *Republic* (the ring of Gyges); Block B: WR1 the GRE Analyze an Issue task (condensed)
 - About 75 minutes against ~45 planned. Recall: C040 ½, C042 ½, C047 ✔, C035 ½, C048 ✔, C038 ✘ ×2 (the premise named as the conclusion), C049 ½, C034 ✔3 right after the re-teach. Core: Glaucon's challenge (the ring; justice as medicine; three kinds of goods), Socrates' reply (justice as the soul's health). Words *perfidious*, *sagacious*. Block B (WR1): the 0–6 rubric; a dictated essay answer: about 4.5 provisional (specific examples; the position stated three ways; examples that cut the other way; a circling structure). Cards C050–C053; V018–V019.
 
