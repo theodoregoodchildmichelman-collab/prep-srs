@@ -1,8 +1,8 @@
 {
  "meta": {
-  "next_c": 62,
-  "next_v": 26,
-  "updated": "2026-11-03",
+  "next_c": 65,
+  "next_v": 28,
+  "updated": "2026-11-04",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
  "cards": [
@@ -420,10 +420,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-05",
    "history": "seeded by PT 1 (a justify item answered with the inverse). Original example. Links: C021, C022, C057, C058. L16 (Nov 2) taught the method; test this card cold.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "½",
+     "lesson": 20,
+     "note": "Nov 4: bridge rule right, picked (i); did not name (ii) as the inverse trap"
+    }
+   ],
    "status": "active"
   },
   {
@@ -484,10 +491,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-05",
    "history": "½ Lessons #12–#14; ✘ conf 0 Lesson #15 (Sparta pair); ✔ conf 3 Lesson #16 right after the 5-minute re-teach (not a cold retest). **Nov 2 (cold, unrated): ½.** Position ✔; Sparta ✔ (hope is the comfort of the desperate); gods ✔ in substance (worded \"ruled by the same power-based logic\"; Athens' claim is what gods and men DO); appeal 1 given as \"justice\" instead of fair play as Athens' own interest, and the reputation reply attached to Sparta. Image that worked: each appeal turns to something outside Athens' power (fairness, heaven, a friend) and Athens answers each with the same move: power and interest beat all three.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "½",
+     "lesson": 20,
+     "note": "Nov 4: position and all three appeals/replies right; endorsement should-vs-will not given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -498,10 +512,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-05",
    "history": "✔3 Lesson #10; ½ Lessons #15, #16 (calls it \"too strong\" but the inference stays vague; the direction came from the tutor twice); **½ Nov 2 (cold, conf 3, third run):** \"caused\" too strong ✔, but the inference offered was \"maybe Y caused X\" (still a causal claim). A mini-lesson with the film-cut picture followed. Missed-twice rule applied. Original item.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "½",
+     "lesson": 20,
+     "note": "Nov 4: trap named (no causality); inference given as 'some relationship', not the reader-undercut reading"
+    }
+   ],
    "status": "active"
   },
   {
@@ -717,10 +738,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-05",
    "history": "conclusion without the hedge \"barely\" (Lessons #15, #16, three runs); the overreach named only after prompting. **Nov 2 (cold, unrated): ½** he took the rebuttal \"that claim is mistaken\" as the main conclusion ✔ but gave neither its content nor the hedge (\"barely\"), and did not explain why \"always\" overreaches. Box 1.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "½",
+     "lesson": 20,
+     "note": "Nov 4: conclusion right incl. barely; why 'always' overreaches not explained"
+    }
+   ],
    "status": "active"
   },
   {
@@ -769,7 +797,7 @@
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-02",
    "next_due": "2026-11-03",
-   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair.",
+   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more.",
    "log": [],
    "status": "active"
   },
@@ -831,10 +859,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
-   "last_tested": "",
-   "next_due": "2026-11-02",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-05",
    "history": "seeded by the Lesson #17 check ✔ A at 2.7 (his written conclusion reversed the direction: \"caused kids to drop out\", a dictation slip) and the follow-up ✔ (A negated breaks the argument; C is the restated premise; the \"more\" vs. \"not fewer\" nuance). Original item.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "½",
+     "lesson": 20,
+     "note": "Nov 4: conclusion right; gap vague (something else); counterfactual assumption ok; negation and restated-premise not given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -887,13 +922,21 @@
    "use": "stronger than \"false\": it says the argument LOOKS right. Used of arguments, reasoning, claims.",
    "confusable": "spurious (not genuine; a fake or false link), fallacious",
    "example": "\"Attended, so serious\" (affirming the consequent) is a specious argument.",
-   "box": 2,
+   "box": 3,
    "warn": 0,
    "created": "2026-10-10 (Lesson #7)",
-   "last_tested": "2026-10-11",
-   "next_due": "2026-10-14",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-11",
    "history": "✔ Lessons #7, #8 (define + contrast); ✔ cloze in Lesson #14. Nov 1: used correctly in the V012 discriminate pair (\"a specious argument that sounds airtight\"), not a scheduled test.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "✔",
+     "lesson": 20,
+     "format": "contrast",
+     "note": "Nov 4: specious right; spurious given as 'clearly false' (loose: not genuine)"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1328,7 +1371,7 @@
   {
    "id": "V024",
    "track": "V",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "word": "onerous",
    "meaning": "burdensome; of a duty, tax or obligation",
@@ -1336,16 +1379,24 @@
    "confusable": "onus (a burden, a noun), onorous is not a word",
    "example": "A price ceiling can be onerous to farmers who are forced to sell below cost.",
    "created": "2026-11-03 (Lesson #19)",
-   "last_tested": "",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-09",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "✔",
+     "lesson": 20,
+     "format": "cloze",
+     "note": "Nov 4: cloze right; meaning of onerous not given"
+    }
+   ],
    "status": "active"
   },
   {
    "id": "V025",
    "track": "V",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "word": "pernicious",
    "meaning": "gradually and subtly harmful; destructive in a hidden or slow way",
@@ -1353,8 +1404,92 @@
    "confusable": "perilous (dangerous right now), pervicacious (stubborn)",
    "example": "A tax that looks small but quietly wrecks trade is pernicious.",
    "created": "2026-11-03 (Lesson #19)",
+   "last_tested": "2026-11-04",
+   "next_due": "2026-11-09",
+   "history": "",
+   "log": [
+    {
+     "date": "2026-11-04",
+     "result": "✔",
+     "lesson": 20,
+     "format": "contrast",
+     "note": "Nov 4: slow/hidden harm vs perilous (immediate danger) right"
+    }
+   ],
+   "status": "active"
+  },
+  {
+   "id": "C062",
+   "track": "L",
+   "box": 1,
+   "warn": 0,
+   "q": "Argument: 'Since bike lanes were painted on Harbor Street, shop sales fell 8%. Owners rightly blame the lanes. Removing them will restore sales.' What is the MAIN conclusion, and which necessary assumption states the gap in general form? Why is 'sales on other streets did not fall similarly' not necessary?",
+   "a": "Main conclusion: removing the lanes will restore sales (the lanes-caused-it claim is the intermediate step). General gap: the decline is not due to a cause that would remain in place after removal (a recession is one instance). Negate it: a persisting cause means removal won't restore, so the conclusion fails. 'Other streets did not fall' is a specific no-confounder answer: its negation (they fell similarly) does not break the argument, since the lanes could still be one cause. Prephrase the GENERAL gap, then pick the choice that states it; do not pick the answer matching your first guess.",
+   "created": "2026-11-04 (Lesson #20)",
    "last_tested": "",
-   "next_due": "2026-11-04",
+   "next_due": "2026-11-05",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C063",
+   "track": "P",
+   "box": 1,
+   "warn": 0,
+   "q": "Aristotle, Politics: what two questions sort the six regimes, which are the sound and deviant forms of rule by one, few and many, and why is his 'democracy' a deviation?",
+   "a": "Questions: how many rule, and in whose interest (common advantage vs the rulers' own). One: kingship (sound) / tyranny. Few: aristocracy / oligarchy. Many: polity / democracy. Democracy is the poor majority ruling for itself, oligarchy the rich few ruling for themselves: both are class rule. Interest matters more than number. The most stable regime mixes the two and leans on a large middle class (the mean). Link: Athens at Melos ruled in its own interest (C034).",
+   "created": "2026-11-04 (Lesson #20)",
+   "last_tested": "",
+   "next_due": "2026-11-05",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C064",
+   "track": "WR",
+   "box": 1,
+   "warn": 0,
+   "q": "Write the shape of a 6-level thesis in one sentence, and what must the 'except when' clause do? Test it on: 'Leaders should follow their own judgment rather than popular opinion.'",
+   "a": "[Claim], because [reason], except when [limit]; one sentence, 40 words or fewer, ONE position. The except-when must name a case where the OPPOSING view wins (e.g. leader's judgment unchecked or untrustworthy; a question that is the people's own to decide, like their rights or consent). It must not repeat or support the main claim (the nuclear-retaliation case does). Then test each example: does it support the point it is used for? (Mao's Cultural Revolution was leader-driven; Burke's Bristol speech fits the trustee view.)",
+   "created": "2026-11-04 (Lesson #20)",
+   "last_tested": "",
+   "next_due": "2026-11-05",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V026",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "probity",
+   "meaning": "strict honesty and integrity, especially of a public official",
+   "use": "a ruler or official of probity; a noun for moral uprightness",
+   "confusable": "probe (to investigate); propriety (conforming to social norms)",
+   "example": "A ruler of probity steers for the common good, not for his own cabin.",
+   "created": "2026-11-04 (Lesson #20)",
+   "last_tested": "",
+   "next_due": "2026-11-05",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V027",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "temerity",
+   "meaning": "reckless boldness; nerve to do something unwise",
+   "use": "had the temerity to; negative, unlike courage",
+   "confusable": "timidity (its opposite); audacity (bold, can be admired)",
+   "example": "Athens' temerity in the Sicilian expedition cost it a fleet.",
+   "created": "2026-11-04 (Lesson #20)",
+   "last_tested": "",
+   "next_due": "2026-11-05",
    "history": "",
    "log": [],
    "status": "active"
