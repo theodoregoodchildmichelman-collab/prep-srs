@@ -1,8 +1,8 @@
 {
  "meta": {
-  "next_c": 65,
+  "next_c": 68,
   "next_v": 28,
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
  "cards": [
@@ -452,11 +452,11 @@
    "track": "T",
    "q": "What is your LR pacing rule, and what are the five trap answer types you check every wrong choice against?",
    "a": "Pacing: about 1:20 per question on average; at about 2:00 on any question, pick the best remaining answer, flag it and move on; come back only if time is left; never leave a blank. Traps: (1) too strong; (2) overreach from a hedge (the stimulus says can / need not, the choice says will / always); (3) half right; (4) restates a premise or the conclusion; (5) right topic, wrong logic (or the right logic in the wrong direction: converse/inverse).",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
-   "last_tested": "2026-11-03",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "✘ Lesson #13; ½ Lesson #14 (rule wrong); ½ Nov 1 (conf 2; pacing only \"2 minutes\"; hedge-overreach and half right missing); **½ Nov 2 (cold, conf 2.7):** pacing given as 2:00 / 100 s / 160 s in one answer (the rule is about 1:20 average, pick-flag-move at 2:00, never blank); traps: too strong ✔, restates ✔, necessary/sufficient (converse/inverse) ✔; the hedge trap given reversed (\"always → sometimes\"); half right missing (he said he did not remember the last one). Retest cold Tue.",
    "log": [
     {
@@ -465,6 +465,12 @@
      "lesson": 19,
      "conf": "unsure",
      "note": "five traps all right (hedge, too strong, restates, nec/suff swap, half right); pacing wrong again: said 100 s / 2 min / 3 min move on. Correct: ~1:20 avg, pick-flag-move at 2:00, never blank"
+    },
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "note": "pacing right at last: 1:20, 2:00 flag/guess/move; all five traps named"
     }
    ],
    "status": "active"
@@ -666,8 +672,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
-   "last_tested": "2026-11-03",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "seeded by the GV1 set (item 3 ✘ at conf 3: *preclude* for *vitiate*, no predicted word). Lesson #15: the forged-seal cloze ✔ in the V slot (not a scheduled test). Extended to two blanks in C059.",
    "log": [
     {
@@ -676,6 +682,12 @@
      "lesson": 19,
      "conf": "sure",
      "note": "vitiate right at once; could not name the three steps ('no idea what text completion means'), no own-word prediction mentioned"
+    },
+    {
+     "date": "2026-11-06",
+     "result": "½",
+     "lesson": 21,
+     "note": "own-word prediction named; step 1 lacked signal words/logic; did not apply to vitiate"
     }
    ],
    "status": "active"
@@ -685,11 +697,11 @@
    "track": "L",
    "q": "\"A grant is awarded only if the proposal passed both the technical review and the budget review. No proposal passes the budget review unless it was submitted before the deadline. Harbor's proposal was submitted after the deadline.\" Which must be true, and why is \"Harbor would have received a grant had it been on time\" wrong?",
    "a": "Arrows: grant → (technical AND budget); budget review → on time. Chain: grant → budget review → on time. Contrapositive through the whole chain: late → no budget review → no grant. So Harbor did not receive a grant. \"Would have received it if on time\" mistakes a necessary condition for a sufficient one: the technical review and anything else could still fail. Wrong choices: a specific review result the stimulus never states; \"every proposal that failed the budget review was late\" is the converse of the second rule.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
-   "last_tested": "2026-11-03",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "seeded by the Lesson #14 L29 item ✔3. Original item. The same pattern ✔ on Nov 1 (visa officers).",
    "log": [
     {
@@ -698,6 +710,12 @@
      "lesson": 19,
      "conf": "sure",
      "note": "Harbor got no grant: chain right. Did not explain why 'would have received it if on time' is wrong (on time is only necessary, not sufficient)"
+    },
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "note": "chain right; necessary-vs-sufficient reason given this time"
     }
    ],
    "status": "active"
@@ -797,7 +815,7 @@
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-02",
    "next_due": "2026-11-03",
-   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more.",
+   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more. 2026-11-06: 2026-11-06 essay (handwritten, untimed): thesis ~95 words, third time too long; model in C065",
    "log": [],
    "status": "active"
   },
@@ -880,10 +898,17 @@
    "box": 1,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "seeded by the Lesson #18 pretest ✔ conf 3 (his own bridge: \"anyone who has worked over a year completes the safety course\"). Original item. His own words for the contrast: sufficient = the bridge to the other bank; necessary = the keystone that, if removed, breaks the argument.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "½",
+     "lesson": 21,
+     "note": "definition ok (bridge across the gap); did not apply to Priya: add 'anyone who has worked 3 years completes the course'"
+    }
+   ],
    "status": "active"
   },
   {
@@ -891,13 +916,20 @@
    "track": "L",
    "q": "\"Every report the ambassador signs goes to the Secretary. This cable is a report the ambassador drafted. So this cable will go to the Secretary.\" Which bridge works: (i) every report she drafts, she signs; (ii) every report she signs, she drafts; (iii) any report she does not sign does not go to the Secretary? Then: \"no document negotiated on the public's behalf should stay secret unless publishing it would harm national security.\" Write the rule as an arrow and say which assumption makes \"publish the agreement\" follow.",
    "a": "(i): it links the cable's term (drafted) to the rule's trigger (signed): drafted → signed → goes to the Secretary. (ii) is the converse (signing implies drafting; says nothing about drafting); (iii) is the inverse of the rule (speaks only about unsigned reports). Water agreement: secret → harm to national security; contrapositive: no harm → not secret. The sufficient assumption: publishing the agreement would not harm national security (it fires the contrapositive). The converse (if harm, keep it secret) can't deliver the conclusion.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "seeded by the Lesson #18 check ✔ (i, with the gap in his own words; (ii) named as the converse) and the water-agreement item ✔ A (conclusion and gap ✔; E explained as the wrong direction). Original items. Links: C030, C021, C033 (\"unless\"), C057.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "note": "bridge (i) right; why (ii)/(iii) fail not given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -905,13 +937,20 @@
    "track": "GV",
    "q": "What is your method for a two-blank text completion item? Apply it: \"Although the minister's critics dismissed his proposal as (i)____, even they conceded that its central analysis of the budget gap was (ii)____.\" (i) fatuous / trenchant / exigent; (ii) trenchant / spurious / perfidious. How can a fatuous proposal contain a trenchant analysis?",
    "a": "Read the whole sentence and mark the signal words (\"although… even they conceded\" = contrast); start with the easier blank and predict your own word; do the other blank; the two blanks must make ONE sentence; a choice that fits one blank only is the trap. (i) fatuous (silly, pointless), (ii) trenchant (sharp, incisive). \"Fatuous\" is the CRITICS' verdict; the sentence turns on the concession: a sound diagnosis can come with a silly remedy. Always write the blank's word before looking at the choices (C045).",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "seeded by GV2: 5/6 blanks first try; item 3(i) answered \"spurious\" (not a choice) and corrected to fatuous when asked. Original item.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "note": "fatuous/trenchant right; own-word prediction not shown"
+    }
+   ],
    "status": "active"
   },
   {
@@ -964,13 +1003,21 @@
    "use": "of links, connections, arguments; the support is slight, not that the claim is false.",
    "confusable": "tenable (defensible), tentative (provisional)",
    "example": "\"Most speak French. Some speak Arabic. So someone speaks both\" is a tenuous inference.",
-   "box": 2,
+   "box": 3,
    "warn": 0,
    "created": "2026-10-11 (Lesson #8)",
-   "last_tested": "2026-10-12",
-   "next_due": "2026-10-15",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-13",
    "history": "used correctly in Lesson #8; ✔3 (cloze) Lesson #9.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "format": "cloze",
+     "note": "tenuous right; meaning not given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1463,7 +1510,7 @@
   {
    "id": "V026",
    "track": "V",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "word": "probity",
    "meaning": "strict honesty and integrity, especially of a public official",
@@ -1471,16 +1518,24 @@
    "confusable": "probe (to investigate); propriety (conforming to social norms)",
    "example": "A ruler of probity steers for the common good, not for his own cabin.",
    "created": "2026-11-04 (Lesson #20)",
-   "last_tested": "",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "format": "cloze",
+     "note": "usage right; meaning not given"
+    }
+   ],
    "status": "active"
   },
   {
    "id": "V027",
    "track": "V",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "word": "temerity",
    "meaning": "reckless boldness; nerve to do something unwise",
@@ -1488,8 +1543,58 @@
    "confusable": "timidity (its opposite); audacity (bold, can be admired)",
    "example": "Athens' temerity in the Sicilian expedition cost it a fleet.",
    "created": "2026-11-04 (Lesson #20)",
+   "last_tested": "2026-11-06",
+   "next_due": "2026-11-09",
+   "history": "",
+   "log": [
+    {
+     "date": "2026-11-06",
+     "result": "✔",
+     "lesson": 21,
+     "format": "cloze",
+     "note": "usage right ('full with' slip); meaning not given"
+    }
+   ],
+   "status": "active"
+  },
+  {
+   "id": "C065",
+   "track": "WR",
+   "box": 1,
+   "warn": 0,
+   "q": "Write a GRE Issue thesis in one sentence of 40 words or fewer. What shape does it take, and what must the 'except when' do? (Nov 6 prompt: governments and future generations)",
+   "a": "Shape: claim, because reason, except when limit, in one breath, one position. The 'except when' must LIMIT the claim (a real exception), not support it. Model (38 words): Governments should put future generations' interests ahead of citizens' present wishes only when citizens consent, because the will of the unborn cannot be known, except when an irreversible existential threat looms that citizens ignore or do not understand. The sharp idea: who decides (through consent, not over it).",
+   "created": "2026-11-06 (Lesson #21)",
    "last_tested": "",
-   "next_due": "2026-11-05",
+   "next_due": "2026-11-09",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C066",
+   "track": "WR",
+   "box": 1,
+   "warn": 0,
+   "q": "A prompt says governments should put X AHEAD OF Y. Why is 'if governments did it always, no citizen would ever be served' a weak line of attack, and what is the better move? Also: how do you test each example?",
+   "a": "It refutes an extreme reading ('always') nobody asked about; the prompt only says 'ahead of' when they conflict. Answer the claim as stated, in its moderate form, and take a position on WHEN. Test every example: does it support the point you use it for? (Soviet utopia/Holodomor shows ideology plus dictatorship, not future-focus as such; global warming is a case for government action, so the 'except when' needs one line on why it does not swallow the rule.) Also keep the essay consistent: if future-focus is 'incompatible with democracy', do not later propose persuading citizens to act for their grandchildren.",
+   "created": "2026-11-06 (Lesson #21)",
+   "last_tested": "",
+   "next_due": "2026-11-09",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C067",
+   "track": "P",
+   "box": 1,
+   "warn": 0,
+   "q": "Why can't a democratic government easily act for future generations, and what is the sharpest way to state when it still may? (Consent and the unborn)",
+   "a": "Democratic legitimacy rests on the will of the living; the will of people not yet born cannot be known, so any claim to speak for them risks being a ruler's own agenda in disguise (the Soviet claim to a future utopia). So: act for the future THROUGH citizens' consent (persuade them: the world your grandchildren live in), not OVER it. Possible exception: an irreversible existential threat citizens ignore or do not understand. Links: Burke, Hobbes, Rousseau's general will, the Melian Dialogue (C034).",
+   "created": "2026-11-06 (Lesson #21)",
+   "last_tested": "",
+   "next_due": "2026-11-09",
    "history": "",
    "log": [],
    "status": "active"
