@@ -1,8 +1,8 @@
 {
  "meta": {
-  "next_c": 68,
-  "next_v": 28,
-  "updated": "2026-11-06",
+  "next_c": 72,
+  "next_v": 31,
+  "updated": "2026-11-12",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
  "cards": [
@@ -420,8 +420,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
-   "last_tested": "2026-11-04",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "seeded by PT 1 (a justify item answered with the inverse). Original example. Links: C021, C022, C057, C058. L16 (Nov 2) taught the method; test this card cold.",
    "log": [
     {
@@ -429,6 +429,13 @@
      "result": "½",
      "lesson": 20,
      "note": "Nov 4: bridge rule right, picked (i); did not name (ii) as the inverse trap"
+    },
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: picked (i) ok, rule stated garbled; named (ii) 'overstatement, we do not know' - wrong reason: (ii) is the inverse (trigger absent), cannot deliver the conclusion. Half twice -> mini-lesson"
     }
    ],
    "status": "active"
@@ -497,8 +504,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
-   "last_tested": "2026-11-04",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "½ Lessons #12–#14; ✘ conf 0 Lesson #15 (Sparta pair); ✔ conf 3 Lesson #16 right after the 5-minute re-teach (not a cold retest). **Nov 2 (cold, unrated): ½.** Position ✔; Sparta ✔ (hope is the comfort of the desperate); gods ✔ in substance (worded \"ruled by the same power-based logic\"; Athens' claim is what gods and men DO); appeal 1 given as \"justice\" instead of fair play as Athens' own interest, and the reputation reply attached to Sparta. Image that worked: each appeal turns to something outside Athens' power (fairness, heaven, a friend) and Athens answers each with the same move: power and interest beat all three.",
    "log": [
     {
@@ -506,6 +513,13 @@
      "result": "½",
      "lesson": 20,
      "note": "Nov 4: position and all three appeals/replies right; endorsement should-vs-will not given"
+    },
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: position + all appeals/replies ok (Sparta self-interest not given); endorsement: placement implies relation ok but called next episode a city-state's fall (it is Athens' Sicilian disaster); should-vs-will still not separated"
     }
    ],
    "status": "active"
@@ -518,8 +532,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
-   "last_tested": "2026-11-04",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "✔3 Lesson #10; ½ Lessons #15, #16 (calls it \"too strong\" but the inference stays vague; the direction came from the tutor twice); **½ Nov 2 (cold, conf 3, third run):** \"caused\" too strong ✔, but the inference offered was \"maybe Y caused X\" (still a causal claim). A mini-lesson with the film-cut picture followed. Missed-twice rule applied. Original item.",
    "log": [
     {
@@ -527,6 +541,13 @@
      "result": "½",
      "lesson": 20,
      "note": "Nov 4: trap named (no causality); inference given as 'some relationship', not the reader-undercut reading"
+    },
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: now names both X->Y and Y->X as traps (new); inference still 'some relationship' not the reader-undercut reading (5th half)"
     }
    ],
    "status": "active"
@@ -739,13 +760,20 @@
    "track": "GQ",
    "q": "Is the product of two consecutive integers always, sometimes or never even? Is 7,482 divisible by 3? By 9? Give the prime factorization of 84. If n² is odd, must n be odd?",
    "a": "Always even: one of the two is even, and even × anything is even. 7+4+8+2 = 21: divisible by 3 (21 ÷ 3), not by 9. 84 = 2² × 3 × 7 (84 → 12 × 7 → 4 × 3 × 7 → 2 × 2 × 3 × 7). Yes, n² odd → n odd, by the contrapositive: n even → n² even. Rules: even × anything = even; odd × odd = odd; odd + odd = even; test 3 and 9 by digit sum, 4 by the last two digits, 5 by a last digit of 0 or 5; 1 is not prime, 2 is the only even prime.",
-   "box": 2,
+   "box": 1,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
-   "last_tested": "2026-10-21",
-   "next_due": "2026-10-26",
+   "last_tested": "2026-11-12",
+   "next_due": "2026-11-13",
    "history": "GQ1 check 3/3; ✔ with slips Lesson #16 (no digit-sum test; the exponent form of 84 not written, twice). Retest as the opening of GQ2 (Tue Nov 3).",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-12",
+     "result": "½",
+     "lesson": 22,
+     "note": "Nov 12 retest: parts 1-3 ok (always even; /3 yes, /9 no; 2^2*3*7 in exponent form); part 4 (n^2 odd -> n odd, contrapositive) skipped twice; digit sum not shown"
+    }
+   ],
    "status": "active"
   },
   {
@@ -753,11 +781,11 @@
    "track": "L",
    "q": "\"Commentators claim that suspending the gasoline tax for the summer will lower pump prices. That claim is mistaken. Refiners cannot expand output within a single summer, and drivers will keep buying about as much whatever the price. So sellers can raise their own price by the amount of the tax cut, and the pump price will barely move. Besides, the suspension would cost the treasury billions.\" What is the main conclusion, and why is \"Sellers will always raise their prices by the amount of any tax cut\" wrong?",
    "a": "Main conclusion: suspending the tax will not noticeably lower pump prices (the rebuttal \"that claim is mistaken\", with the hedge \"barely\"). Refiners, inelastic demand and sellers pocketing the cut are support; the treasury cost is an aside (\"besides\"). \"Always\" and \"any tax cut\" overreach from a hedge: the author says sellers CAN raise their price in this case (trap type 2, C032). Links: C031 (rebuttal main point), C043, C055, E5 (tax incidence).",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
-   "last_tested": "2026-11-04",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-13",
    "history": "conclusion without the hedge \"barely\" (Lessons #15, #16, three runs); the overreach named only after prompting. **Nov 2 (cold, unrated): ½** he took the rebuttal \"that claim is mistaken\" as the main conclusion ✔ but gave neither its content nor the hedge (\"barely\"), and did not explain why \"always\" overreaches. Box 1.",
    "log": [
     {
@@ -765,6 +793,13 @@
      "result": "½",
      "lesson": 20,
      "note": "Nov 4: conclusion right incl. barely; why 'always' overreaches not explained"
+    },
+    {
+     "date": "2026-11-10",
+     "result": "✔",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: conclusion with hedge ok; 'always' wrong via 'barely' (some movement); missing the key word 'can' = author claims possibility in this case, not a law; said demand somewhat elastic, text says inelastic"
     }
    ],
    "status": "active"
@@ -791,8 +826,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
-   "last_tested": "2026-11-03",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "seeded by the Lesson #16 check ✔; explain-back ½ (two parts of the soul, not three; \"even if no one finds out\" missing).",
    "log": [
     {
@@ -801,6 +836,13 @@
      "lesson": 19,
      "conf": "sure",
      "note": "three kinds right; placed justice in the 'effects only' kind (Glaucon wants it in kind 3, both; Socrates argues it belongs there). Socrates: three parts, ruled by desire, ring can't touch it, ok"
+    },
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: three kinds ok; did not place justice in kind 3; soul-health idea muddled, ring not addressed; objection = 'assumes three parts' (valid, not the psychopath)"
     }
    ],
    "status": "active"
@@ -813,10 +855,18 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
-   "last_tested": "2026-11-02",
-   "next_due": "2026-11-03",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more. 2026-11-06: 2026-11-06 essay (handwritten, untimed): thesis ~95 words, third time too long; model in C065",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: nuanced thesis + exceptions ok; missing named examples, strongest counterargument, one-sentence X because Y except when Z; 'extent' = pure yes/no is 4 at best"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1028,13 +1078,22 @@
    "use": "describes how widespread something is, not a logical \"all\".",
    "confusable": "universal, omnipresent",
    "example": "\"Smartphones are ubiquitous in the capital, but 'every resident owns one' would need a separate claim.\"",
-   "box": 2,
+   "box": 3,
    "warn": 0,
    "created": "2026-10-11 (Lesson #8)",
-   "last_tested": "2026-10-14",
-   "next_due": "2026-10-19",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-17",
    "history": "loose in Lesson #8; ½ produce (noun *ubiquity*) Lesson #9; ✔ cloze Lesson #11.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "✔",
+     "lesson": 22,
+     "conf": "sure",
+     "format": "cloze",
+     "note": "Nov 10: cloze + meaning ok"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1062,13 +1121,22 @@
    "use": "stronger than \"deny\"; it rejects a claim's authority.",
    "confusable": "refute, deny, recant",
    "example": "The new government repudiated the debt, but economists could not refute the old government's accounts.",
-   "box": 2,
+   "box": 1,
    "warn": 0,
    "created": "2026-10-12 (Lesson #9)",
-   "last_tested": "2026-10-15",
-   "next_due": "2026-10-19",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "✔ Lesson #9; ½ Lesson #11; ✔ cloze Lesson #12; \"repudiate tariffs\" loose in Lesson #13; ✔ Lesson #14.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "format": "cloze",
+     "note": "Nov 10: cloze ok; meaning loose ('refuse to ratify, kind of'); reject as invalid/refuse to be bound"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1079,13 +1147,22 @@
    "use": "more formal and fatalistic than \"inevitable\".",
    "confusable": "inevitable, ineffable (inexpressible), inescapable",
    "example": "Athens treats the rule of the strong over the weak as ineluctable.",
-   "box": 2,
+   "box": 3,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
-   "last_tested": "2026-10-15",
-   "next_due": "2026-10-19",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-17",
    "history": "✔ Lessons #10, #12 (discriminate vs. *ineffable*); loose in Lesson #13. Lesson #16: he defined *exigent* as \"unavoidable\", which is *ineluctable*: test the pair as a discriminate item.",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "✔",
+     "lesson": 22,
+     "conf": "sure",
+     "format": "cloze",
+     "note": "Nov 10: cloze + meaning ok"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1395,10 +1472,18 @@
    "q": "A town's grain sells 100 sacks at 10 coins. A ceiling of 6 cuts supply to 60 sacks while buyers want 140. Name the 80-sack gap, the 40 lost trades, and say what deadweight loss is.",
    "a": "The 80-sack gap is a shortage (a paucity at the capped price): 140 wanted minus 60 supplied. It splits into 40 sacks that used to trade (100 to 60, the lost trades) plus 40 from new buyers the low price pulled in. Deadweight loss is the surplus (gains, in coins) from the lost trades: farmer and buyer would both have gained and no longer trade. A ceiling below equilibrium makes a shortage; a floor above it makes a surplus (a plethora).",
    "created": "2026-11-03 (Lesson #19)",
-   "last_tested": "",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "conf": "sure",
+     "note": "Nov 10: gap = shortage ok; called the 40 lost trades the whole 80 gap (missing the 40 new buyers); DWL = value of lost trades given loosely"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1409,10 +1494,17 @@
    "q": "Who bears most of a tax, and does it matter who legally pays it? How does elasticity change the deadweight loss?",
    "a": "The less elastic side (the one that cannot easily walk away) bears more of the tax; it does not matter who legally pays, since a tax on sellers and a tax on buyers split the cost the same way. If buyers are inelastic they keep buying, few trades vanish and the deadweight loss is small. If buyers can switch (rice), many trades vanish and the deadweight loss is large.",
    "created": "2026-11-03 (Lesson #19)",
-   "last_tested": "",
-   "next_due": "2026-11-04",
+   "last_tested": "2026-11-10",
+   "next_due": "2026-11-11",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-10",
+     "result": "½",
+     "lesson": 22,
+     "note": "Nov 10: less elastic side bears more, legal payer irrelevant ok; did not state the DWL direction (inelastic = few trades vanish = small DWL; elastic = large)"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1595,6 +1687,113 @@
    "created": "2026-11-06 (Lesson #21)",
    "last_tested": "",
    "next_due": "2026-11-09",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C068",
+   "track": "L",
+   "box": 1,
+   "warn": 0,
+   "q": "How do you find the main conclusion and label roles in an argument? Apply it: A critic says X is a waste because the count was low; the author says the count was taken in exam week so it cannot show X is a waste, and so the council should wait for a normal month. What is the main conclusion, what is the role of the count cannot show X is a waste, and what is a concession?",
+   "a": "Label each sentence C (main conclusion), I (intermediate conclusion: supported, and supports another), P (premise), O (opposing view or concession). Main conclusion = the sentence everything else is a reason for (here: the council should wait). The count-cannot-show sentence is an INTERMEDIATE conclusion (exam week supports it, it supports wait). A reported view (Some say X) belongs to the speaker, not the author; the author's This is mistaken is the conclusion, with the author's hedge (not always). A concession (of course, granted) limits the claim, is never the conclusion, and is answered by the but after it. Nov 10: he picked the intermediate step as the main conclusion (not necessarily a waste).",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C069",
+   "track": "E",
+   "box": 1,
+   "warn": 0,
+   "q": "Define stock and flow and say how they are linked. A country has debt of 30 trillion; the deficit fell from 1.5 to 1.0 trillion; a politician says we have cut the debt by a third. Right or wrong? A lake loses 1 million liters a month net; the town cuts the outflow by half a million: does it stop shrinking?",
+   "a": "Stock = an amount at one moment (a level you can photograph); flow = an amount PER UNIT OF TIME (a rate). A stock changes only through its flows: new = old + inflow - outflow, times the time elapsed. The deficit (flow) fell by a third, but the debt (stock) still rose by 1 trillion; debt falls only when the flow turns negative (a surplus). The lake still shrinks, at half the pace (-0.5 a month): cutting an outflow slows the loss, it does not reverse it. Nov 12: he gave stock = fixed amount and flow = moving money, without per unit of time or the link.",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C070",
+   "track": "GV",
+   "box": 1,
+   "warn": 0,
+   "q": "GRE Sentence Equivalence: how many answers do you pick, what must be true of them, and what are the three traps?",
+   "a": "Pick TWO of six; both must complete the sentence AND mean nearly the same (no partial credit). Method: predict your own word, then find its partner among the choices. Traps: (1) a word that fits the sentence loosely but has NO synonym partner (ostensible next to hollow/insincere); (2) a synonym pair that does not fit the sentence logic (an opposite pair, e.g. trenchant vs fatuous/inane); (3) two words that both fit but differ in meaning. Nov 10: first read it as one answer per item; after re-explanation got 6/6.",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C071",
+   "track": "GQ",
+   "box": 1,
+   "warn": 0,
+   "q": "How do you find the GCD and LCM of 12 and 18 from prime factors? Give the check. What does n leaves remainder 4 when divided by 6 mean, and what remainder does n + 5 leave?",
+   "a": "12 = 2^2*3, 18 = 2*3^2. GCD = lowest power of each SHARED prime = 2*3 = 6 (biggest square tile for a 12x18 floor). LCM = highest power of EVERY prime = 2^2*3^2 = 36 (two lights flashing every 12 and 18 s meet at 36). Check: GCD*LCM = product (6*36 = 216 = 12*18). Remainder: n = 6k + 4 (k full cartons of 6 plus 4 loose eggs); n + 5 gives 9 loose = one more carton + 3, so remainder 3. Work with the remainder part only. QC: compute both columns before comparing (GCD of 36 and 60 = 12 vs LCM of 3 and 4 = 12: equal).",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V028",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "jejune",
+   "meaning": "naive, simplistic, lacking depth or maturity (describes an idea or argument, not the person)",
+   "use": "formal, critical; a professor can make a jejune argument",
+   "confusable": "puerile (childish), simple, naive",
+   "example": "Treating one exam-week count as proof the hours are a waste is jejune.",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V029",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "precarious",
+   "meaning": "unstable; dependent on chance; likely to fail or fall",
+   "use": "describes a position, state or balance",
+   "confusable": "perilous (dangerous), parsimonious (not related)",
+   "example": "A tub whose outflow exceeds its inflow is in a precarious state.",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V030",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "parsimonious",
+   "meaning": "extremely sparing with money or resources; stingy",
+   "use": "a budget or a person; also a parsimonious explanation uses few assumptions",
+   "confusable": "frugal (approving), miserly (harsher), prodigal (opposite)",
+   "example": "A parsimonious budget cuts the outflow to the bone.",
+   "created": "2026-11-12 (Lesson #22)",
+   "last_tested": "",
+   "next_due": "2026-11-13",
    "history": "",
    "log": [],
    "status": "active"
