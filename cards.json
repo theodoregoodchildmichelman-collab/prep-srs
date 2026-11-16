@@ -1,8 +1,8 @@
 {
  "meta": {
-  "next_c": 72,
-  "next_v": 31,
-  "updated": "2026-11-12",
+  "next_c": 76,
+  "next_v": 33,
+  "updated": "2026-11-16",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
  "cards": [
@@ -693,8 +693,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
-   "last_tested": "2026-11-06",
-   "next_due": "2026-11-09",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "seeded by the GV1 set (item 3 ✘ at conf 3: *preclude* for *vitiate*, no predicted word). Lesson #15: the forged-seal cloze ✔ in the V slot (not a scheduled test). Extended to two blanks in C059.",
    "log": [
     {
@@ -709,6 +709,12 @@
      "result": "½",
      "lesson": 21,
      "note": "own-word prediction named; step 1 lacked signal words/logic; did not apply to vitiate"
+    },
+    {
+     "date": "2026-11-16",
+     "result": "½",
+     "lesson": 23,
+     "note": "Nov 16: vitiate right; steps 2-3 right; step 1 (signal words) named but dismissed as 'doesn't matter to me'; step 2 reason not given"
     }
    ],
    "status": "active"
@@ -927,8 +933,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
-   "last_tested": "2026-11-04",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "seeded by the Lesson #17 check ✔ A at 2.7 (his written conclusion reversed the direction: \"caused kids to drop out\", a dictation slip) and the follow-up ✔ (A negated breaks the argument; C is the restated premise; the \"more\" vs. \"not fewer\" nuance). Original item.",
    "log": [
     {
@@ -936,6 +942,13 @@
      "result": "½",
      "lesson": 20,
      "note": "Nov 4: conclusion right; gap vague (something else); counterfactual assumption ok; negation and restated-premise not given"
+    },
+    {
+     "date": "2026-11-16",
+     "result": "½",
+     "lesson": 23,
+     "conf": "unsure",
+     "note": "Nov 16: conclusion, gap, counterfactual assumption, restated premise all right; negation of the restated premise said to contradict the 'argument', not just the premise"
     }
    ],
    "status": "active"
@@ -945,11 +958,11 @@
    "track": "L",
    "q": "What is a sufficient assumption, and how do you find it? Apply it: \"Anyone who completes the safety course is assigned to the night shift. Priya has worked here for three years. Therefore, Priya will be assigned to the night shift.\" What must you add? Why does \"too strong\" stop being a flaw on these items?",
    "a": "A sufficient assumption is ENOUGH: added to the premises, the conclusion MUST follow with no gap left. Method: write the conclusion; find the term the premises never connect (the course is never tied to three years); the answer is the arrow that joins them in the right direction. Chain: worked 3 years → completed the course → night shift; add \"anyone who has worked over a year completes the course\" (or \"Priya completed the course\"). River picture: the premises leave you on one bank, the rule is one stepping stone, the bridge is the missing stone (the chain rule, C023). A sweeping rule is fine if it delivers; the traps are the converse/inverse and answers that are only necessary. Links: C028 (necessary), C030, C058.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
-   "last_tested": "2026-11-06",
-   "next_due": "2026-11-09",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-19",
    "history": "seeded by the Lesson #18 pretest ✔ conf 3 (his own bridge: \"anyone who has worked over a year completes the safety course\"). Original item. His own words for the contrast: sufficient = the bridge to the other bank; necessary = the keystone that, if removed, breaks the argument.",
    "log": [
     {
@@ -957,6 +970,18 @@
      "result": "½",
      "lesson": 21,
      "note": "definition ok (bridge across the gap); did not apply to Priya: add 'anyone who has worked 3 years completes the course'"
+    },
+    {
+     "date": "2026-11-16",
+     "result": "½",
+     "lesson": 23,
+     "note": "Nov 16: definition ok, 'too strong' ok; added 'worked over a year -> night shift', which skips the course premise instead of linking course to years worked"
+    },
+    {
+     "date": "2026-11-16",
+     "result": "✔",
+     "lesson": 23,
+     "note": "Nov 16 regrade after pushback: his addition (worked over a year -> night shift) is a valid sufficient assumption and answered what was asked; the LSAT answer would join course and years worked, which he knows (Nov 2 pretest)"
     }
    ],
    "status": "active"
@@ -1121,11 +1146,11 @@
    "use": "stronger than \"deny\"; it rejects a claim's authority.",
    "confusable": "refute, deny, recant",
    "example": "The new government repudiated the debt, but economists could not refute the old government's accounts.",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "created": "2026-10-12 (Lesson #9)",
-   "last_tested": "2026-11-10",
-   "next_due": "2026-11-11",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-19",
    "history": "✔ Lesson #9; ½ Lesson #11; ✔ cloze Lesson #12; \"repudiate tariffs\" loose in Lesson #13; ✔ Lesson #14.",
    "log": [
     {
@@ -1135,6 +1160,13 @@
      "conf": "sure",
      "format": "cloze",
      "note": "Nov 10: cloze ok; meaning loose ('refuse to ratify, kind of'); reject as invalid/refuse to be bound"
+    },
+    {
+     "date": "2026-11-16",
+     "result": "✔",
+     "lesson": 23,
+     "format": "produce",
+     "note": "Nov 16: repudiate used correctly twice (rejected unacceptable conduct / a program); meaning implied, not stated"
     }
    ],
    "status": "active"
@@ -1561,14 +1593,22 @@
    "id": "C062",
    "track": "L",
    "box": 1,
-   "warn": 0,
+   "warn": 2,
    "q": "Argument: 'Since bike lanes were painted on Harbor Street, shop sales fell 8%. Owners rightly blame the lanes. Removing them will restore sales.' What is the MAIN conclusion, and which necessary assumption states the gap in general form? Why is 'sales on other streets did not fall similarly' not necessary?",
    "a": "Main conclusion: removing the lanes will restore sales (the lanes-caused-it claim is the intermediate step). General gap: the decline is not due to a cause that would remain in place after removal (a recession is one instance). Negate it: a persisting cause means removal won't restore, so the conclusion fails. 'Other streets did not fall' is a specific no-confounder answer: its negation (they fell similarly) does not break the argument, since the lanes could still be one cause. Prephrase the GENERAL gap, then pick the choice that states it; do not pick the answer matching your first guess.",
    "created": "2026-11-04 (Lesson #20)",
-   "last_tested": "",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-16",
+     "result": "✘",
+     "lesson": 23,
+     "conf": "sure",
+     "note": "Nov 16: confident miss: called 'lanes caused the fall' the main conclusion (it is the intermediate step); gap given as the recession instance, not the general form; 'other streets' reasoning was 'probable not proof' instead of negation test"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1579,10 +1619,18 @@
    "q": "Aristotle, Politics: what two questions sort the six regimes, which are the sound and deviant forms of rule by one, few and many, and why is his 'democracy' a deviation?",
    "a": "Questions: how many rule, and in whose interest (common advantage vs the rulers' own). One: kingship (sound) / tyranny. Few: aristocracy / oligarchy. Many: polity / democracy. Democracy is the poor majority ruling for itself, oligarchy the rich few ruling for themselves: both are class rule. Interest matters more than number. The most stable regime mixes the two and leans on a large middle class (the mean). Link: Athens at Melos ruled in its own interest (C034).",
    "created": "2026-11-04 (Lesson #20)",
-   "last_tested": "",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-16",
+     "result": "✔",
+     "lesson": 23,
+     "conf": "unsure",
+     "note": "Nov 16: all six regimes right (said plurality for polity); who rules and in whose interest right; unsure only on names"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1593,10 +1641,17 @@
    "q": "Write the shape of a 6-level thesis in one sentence, and what must the 'except when' clause do? Test it on: 'Leaders should follow their own judgment rather than popular opinion.'",
    "a": "[Claim], because [reason], except when [limit]; one sentence, 40 words or fewer, ONE position. The except-when must name a case where the OPPOSING view wins (e.g. leader's judgment unchecked or untrustworthy; a question that is the people's own to decide, like their rights or consent). It must not repeat or support the main claim (the nuclear-retaliation case does). Then test each example: does it support the point it is used for? (Mao's Cultural Revolution was leader-driven; Burke's Bristol speech fits the trustee view.)",
    "created": "2026-11-04 (Lesson #20)",
-   "last_tested": "",
-   "next_due": "2026-11-05",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-16",
+     "result": "½",
+     "lesson": 23,
+     "note": "Nov 16: right idea (except-when names a case where the opposing view wins), but two sentences, ~48 words, claim restated, no 'because'; shape not stated"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1750,7 +1805,7 @@
   {
    "id": "V028",
    "track": "V",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "word": "jejune",
    "meaning": "naive, simplistic, lacking depth or maturity (describes an idea or argument, not the person)",
@@ -1758,10 +1813,18 @@
    "confusable": "puerile (childish), simple, naive",
    "example": "Treating one exam-week count as proof the hours are a waste is jejune.",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-19",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-16",
+     "result": "✔",
+     "lesson": 23,
+     "format": "gre_one_blank",
+     "note": "Nov 16: jejune picked in a GRE one-blank item; no meaning given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1775,10 +1838,19 @@
    "confusable": "perilous (dangerous), parsimonious (not related)",
    "example": "A tub whose outflow exceeds its inflow is in a precarious state.",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-16",
+   "next_due": "2026-11-17",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-16",
+     "result": "✔",
+     "lesson": 23,
+     "conf": "unsure",
+     "format": "cloze",
+     "note": "Nov 16: precarious, after hedging between tenuous/perilous/precarious; no meaning given"
+    }
+   ],
    "status": "active"
   },
   {
@@ -1794,6 +1866,96 @@
    "created": "2026-11-12 (Lesson #22)",
    "last_tested": "",
    "next_due": "2026-11-13",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C072",
+   "track": "L",
+   "box": 1,
+   "warn": 0,
+   "q": "A and B go together and an author concludes 'A causes B'. List the five other explanations the author must rule out, and say which one is the general gap on a causal necessary-assumption item. Why is regression to the mean a form of coincidence?",
+   "a": "Five explanations: (1) A causes B (the claim); (2) reverse: B causes A; (3) common cause: C causes both; (4) reporting/measurement: the data is collected differently where A is present; (5) coincidence/chance: small or unrepresentative sample. A causal argument assumes 2-5 are false; weaken it by raising one, strengthen it by ruling one out. General gap: nothing else explains it / the cause is the one that was changed. Regression to the mean: a group picked for an extreme score (lowest 10 schools) tends to score closer to average next time by chance alone, so a rise after a program may be no effect of the program. Link: C062 (bike lanes), C068.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C073",
+   "track": "L",
+   "box": 1,
+   "warn": 0,
+   "q": "Original item: the 10 lowest-scoring of 40 schools got a free-breakfast program; their reading scores rose 6 points; the superintendent says breakfast raised scores. Which kind of answer weakens it most, and why do these choices fail: (a) the other 30 schools were unchanged, (b) attendance rose, (c) the 10 schools stayed below the district average?",
+   "a": "Best weakener: lowest-scoring schools typically score higher the next year whether or not anything changes (regression to the mean: the rise would have happened with no program). (a) strengthens (no general trend). (b) is mildly consistent, does not touch the cause. (c) is true but irrelevant to what caused the rise; to weaken you must offer another explanation for the same data. Nov 16: he picked the regression answer unprompted but skipped the conclusion line, sure/unsure and the tempter until asked.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C074",
+   "track": "H",
+   "box": 1,
+   "warn": 0,
+   "q": "US treaties: who negotiates, who ratifies, by what vote, and what do presidents use to avoid that vote? Why is 'executive order' the wrong name for it?",
+   "a": "The President negotiates (and signs); the Senate alone ratifies, by two-thirds of senators present (the House has no role). To avoid that vote: executive agreements (made on presidential authority) or congressional-executive agreements (simple majority of both houses; NAFTA/USMCA). An executive order is a directive to the executive branch itself, not an international agreement. Nov 16: he said 'Congress' and 'executive orders'.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C075",
+   "track": "GV",
+   "box": 1,
+   "warn": 0,
+   "q": "GRE Verbal: name four reversing signals (one hidden) and four continuing signals, and say what 'not merely critical but ___' tells you about the blank. Fill: 'Although the senator is usually ___ in public, her speech was strikingly blunt' (circumspect / bellicose / garrulous).",
+   "a": "Reversers: although, but, yet, despite, while, rather than; hidden: 'far from being ___', 'contrary to expectation'. Continuers: because, thus, moreover, indeed, 'not merely X but even Y' (the blank is a stronger version of X: not merely critical but derisive). Answer: circumspect (the opposite of blunt); bellicose is the trap if you ignore 'although'. Nov 16: GV4 4 of 5 answers; he used his own-word prediction (steps 2-3) successfully and skipped blank (i) of the reviewer item.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V031",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "apocryphal",
+   "meaning": "of doubtful authenticity; widely told as true but probably false (usually a story or anecdote)",
+   "use": "formal; the apocryphal story, an apocryphal quotation",
+   "confusable": "spurious (false, on purpose or not), mythical",
+   "example": "The apocryphal story that Marie Antoinette said 'let them eat cake' has never been traced to her.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
+   "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V032",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "puerile",
+   "meaning": "childish and silly; showing a lack of maturity",
+   "use": "describes behavior, humor or remarks, with contempt",
+   "confusable": "jejune (naive/shallow, of ideas), juvenile",
+   "example": "The senators' puerile name-calling made the hearing impossible to take seriously.",
+   "created": "2026-11-16 (Lesson #23)",
+   "last_tested": "",
+   "next_due": "2026-11-17",
    "history": "",
    "log": [],
    "status": "active"
