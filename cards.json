@@ -9,420 +9,449 @@
   {
    "id": "C001",
    "track": "L",
-   "q": "Translate \"The treaty fails unless the Senate consents.\" Which way does the arrow run, and what is the trap?",
+   "q": "\"The treaty fails unless the Senate consents.\" 1) Arrow? 2) Contrapositive? 3) Trap: (a) converse 'fails → no consent' (b) contrapositive (c) none. 4) Consent is (n)ecessary or (s)ufficient?",
    "a": "If the Senate does NOT consent → the treaty fails. Contrapositive: the treaty doesn't fail → the Senate consented. Trap: the converse, \"treaty fails → no consent\" (it could fail for other reasons). Rule: \"unless\" = \"if not\", with the result on the then-side. Senate consent is necessary, not sufficient.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-01 (Lesson #1)",
    "last_tested": "2026-10-05",
    "next_due": "2026-10-12",
-   "history": "✘ Lesson #1; ✔ Lessons #2, #3.",
+   "history": "✘ Lesson #1; ✔ Lessons #2, #3. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 no consent → fails · 2 not fail → consented · 3 a · 4 n"
   },
   {
    "id": "C002",
    "track": "L",
-   "q": "\"Every country that has hosted the program for more than five years has seen an increase in favorable opinion. Country Z has seen no increase.\" What follows about Z? (Naming the rule is no longer tested, since Lesson #11; test the logic only.)",
+   "q": "\"Every country hosting the program >5 years saw an increase. Z saw no increase.\" 1) What follows about Z (≤6 words)? 2) Could Z have hosted exactly 5 years? y/n",
    "a": "Z has not hosted it for more than five years (five years or fewer, if at all). Contrapositive: \"more than 5 yrs → increase\" ≡ \"no increase → not more than 5 yrs\". Watch the boundary: \"more than five\" excludes exactly five.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-01 (Lesson #1)",
    "last_tested": "2026-10-14",
    "next_due": "2026-10-21",
-   "history": "logic right every time; the name of the rule failed five times, so naming was dropped (Lesson #11).",
+   "history": "logic right every time; the name of the rule failed five times, so naming was dropped (Lesson #11). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 not hosted more than 5 years · 2 y"
   },
   {
    "id": "C003",
    "track": "L",
-   "q": "How do you test whether an answer choice is a necessary assumption? Apply it: \"Four-day-week companies report higher job satisfaction, so a four-day week would raise satisfaction at Meridian.\" Why is \"four-day-week employees work fewer total hours\" not necessary?",
+   "q": "Four-day-week firms report higher satisfaction, so a four-day week would raise it at Meridian. 1) Test for a necessary assumption (1 word)? 2) The necessary assumption (≤8 words)? 3) Is 'they work fewer total hours' necessary? y/n",
    "a": "Negation test: negate the choice; if the argument then collapses, it is necessary. Necessary here: the higher satisfaction is not due entirely to other differences between the companies. Fewer hours is not necessary: negate it (same hours compressed into four days) and a four-day week could still raise satisfaction.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-01 (Lesson #1)",
    "last_tested": "2026-10-05",
    "next_due": "2026-10-12",
-   "history": "✔ Lessons #1–#3, #6. Link: C028, C029, C046.",
+   "history": "✔ Lessons #1–#3, #6. Link: C028, C029, C046. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 negate · 2 satisfaction not due entirely to other differences · 3 n"
   },
   {
    "id": "C004",
    "track": "T",
-   "q": "On RC inference and main-point questions, why are \"true-ish\" or \"the author would agree\" answers often wrong, and which answer type usually wins?",
+   "q": "RC inference/main point. 1) Which usually wins: (a) strongest claim (b) most modest claim licensed by the passage (c) what the author would agree with? 2) Main-point trap (≤4 words)? 3) Extreme wording usually: win / lose?",
    "a": "The answer must be licensed by the passage itself, not by what the author believes elsewhere. The most modest claim usually wins (not the \"strongest\"). Main-point trap: a detail promoted to main point. Extreme wording (every, all, no matter how) usually loses.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-01 (Lesson #1)",
    "last_tested": "2026-10-05",
    "next_due": "2026-10-12",
-   "history": "✔ Lessons #1–#3. PT 1: picked a \"does not depend in any way\" choice over a hedged one (see C032).",
+   "history": "✔ Lessons #1–#3. PT 1: picked a \"does not depend in any way\" choice over a hedged one (see C032). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 b · 2 detail promoted to main point · 3 lose"
   },
   {
    "id": "C005",
    "track": "L",
-   "q": "Translate \"The ceasefire will hold unless the border is closed.\" Which statement is valid: (i) \"border closed → ceasefire fails\" or (ii) \"border NOT closed → ceasefire holds\"? Give the contrapositive and a counterexample to the invalid one.",
+   "q": "\"The ceasefire will hold unless the border is closed.\" 1) Valid: (i) closed → fails or (ii) not closed → holds? 2) Contrapositive? 3) Name the invalid one's type (1 word).",
    "a": "Valid: (ii) ¬closed → holds. Contrapositive: ceasefire fails → border was closed (closure is necessary for failure). (i) is the inverse and is invalid: the border could close and the ceasefire hold anyway. Rule: \"X unless Y\" = \"if not Y, then X\".",
    "box": 3,
    "warn": 0,
    "created": "2026-10-02 (Lesson #2)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-19",
-   "history": "✘ Lessons #2, #3; ✔ Lessons #4, #8. Right on fresh \"unless\" items since.",
+   "history": "✘ Lessons #2, #3; ✔ Lessons #4, #8. Right on fresh \"unless\" items since. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 ii · 2 fails → border closed · 3 inverse"
   },
   {
    "id": "C006",
    "track": "Q",
-   "q": "A panel of 2 is chosen at random from 5 officers, 3 of whom are Political-cone. What is P(both Political)? Why is 0.6 × 0.6 = 36% wrong?",
+   "q": "Panel of 2 from 5 officers, 3 Political. 1) P(both Political) as a fraction? 2) 0.6 × 0.6 is wrong because: (a) rounding (b) draws are without replacement (c) order matters?",
    "a": "3/5 × 2/4 = 6/20 = 30%. Draws are without replacement, so the second pick is conditional: 2 of the remaining 4 are Political. 36% would be the answer only with replacement. Rule: P(A and B) = P(A) × P(B given A).",
    "box": 3,
    "warn": 0,
    "created": "2026-10-02 (Lesson #2)",
    "last_tested": "2026-10-12",
    "next_due": "2026-10-19",
-   "history": "✘ Lessons #2–#4; ✔3 Lessons #5, #6, #9.",
+   "history": "✘ Lessons #2–#4; ✔3 Lessons #5, #6, #9. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 3/5 × 2/4 = 3/10 (30%) · 2 b"
   },
   {
    "id": "C007",
    "track": "G",
-   "q": "Which is correct, and why: \"Walking into the embassy, the flag was visible above the gate\" vs. \"Walking into the embassy, she saw the flag above the gate\"? Why doesn't passive voice rescue \"Having walked into the embassy, the flag was seen by her…\"?",
+   "q": "1) Correct: (a) 'Walking into the embassy, the flag was visible' (b) 'Walking into the embassy, she saw the flag'? 2) Error name (2 words)? 3) Does the passive 'the flag was seen by her' fix it? y/n 4) The test question (≤6 words)?",
    "a": "An opening participial phrase must describe the grammatical subject right after the comma. \"She saw…\" works; \"the flag was…\" makes the flag the walker (dangling modifier). The passive version still has \"the flag\" as its subject, so it still dangles. Test: ask \"who or what is doing the -ing?\"",
    "box": 3,
    "warn": 0,
    "created": "2026-10-02 (Lesson #2)",
    "last_tested": "2026-10-08",
    "next_due": "2026-10-15",
-   "history": "✘ Lesson #2; ✔ Lessons #3, #5, #6.",
+   "history": "✘ Lesson #2; ✔ Lessons #3, #5, #6. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 b · 2 dangling modifier · 3 n · 4 who is doing the -ing?"
   },
   {
    "id": "C008",
    "track": "E",
-   "q": "Country X makes 6 grain OR 6 cloth per day; Country Y makes 4 grain OR 2 cloth. Who has the comparative advantage in each good, and why can trade help both even though X is better at both?",
+   "q": "X: 6 grain OR 6 cloth; Y: 4 grain OR 2 cloth. 1) Comparative advantage in grain: X/Y? 2) In cloth: X/Y? 3) You compare (a) raw output (b) opportunity costs? 4) A trade price must lie where (≤6 words)?",
    "a": "Opportunity costs: X: 1 cloth per grain, 1 grain per cloth. Y: 0.5 cloth per grain, 2 grain per cloth. Y has the comparative advantage in grain; X in cloth. Any trade price strictly between the two countries' opportunity costs leaves both better off. Compare opportunity costs, not raw output.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-02 (Lesson #2)",
    "last_tested": "2026-10-16",
    "next_due": "2026-10-19",
-   "history": "✔ Lessons #3, #5; ½ conf 3 in Lesson #13 (mechanism thin, no price range). Ask for a number next time.",
+   "history": "✔ Lessons #3, #5; ½ conf 3 in Lesson #13 (mechanism thin, no price range). Ask for a number next time. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 Y · 2 X · 3 b · 4 between the two opportunity costs"
   },
   {
    "id": "C009",
    "track": "L",
-   "q": "Translate \"No attaché may enter the compound without clearance.\" Give the arrow, the contrapositive, and the trap.",
+   "q": "\"No attaché may enter the compound without clearance.\" 1) Arrow? 2) Contrapositive? 3) Trap type (1 word)? 4) Does 'without' put a NOT on the if-side? y/n",
    "a": "enter → clearance. Contrapositive: no clearance → cannot enter. Trap: the inverse \"did not enter → no clearance\". Rule: for \"without\", \"requires\", \"only if\", \"no X without Y\", the requirement is the necessary condition and goes on the THEN side; unlike \"unless\", there is no negation on the if-side. Shortcut: swap \"No X without Y\" for \"Every X has Y\", then write X → Y.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-05 (Lesson #3)",
    "last_tested": "2026-10-14",
    "next_due": "2026-10-21",
-   "history": "✘ Lesson #3; ✔ Lessons #4, #5, #6, #9, #11.",
+   "history": "✘ Lesson #3; ✔ Lessons #4, #5, #6, #9, #11. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 enter → clearance · 2 no clearance → can't enter · 3 inverse · 4 n"
   },
   {
    "id": "C010",
    "track": "L",
-   "q": "\"Every treaty the Senate ratifies was first approved by the Committee. No treaty the Committee approved is opposed by the Secretary of State. The Pacific accord is a treaty and the Secretary opposes it.\" What must be true, and why are \"never submitted to the Committee\" and \"the Senate will never ratify it\" wrong?",
+   "q": "Ratified → Committee-approved; Committee-approved → not opposed by the Secretary; the Secretary opposes the Pacific accord. 1) What must be true (≤6 words)? 2) 'Never submitted to the Committee' is: (a) scope shift (b) too strong. 3) 'The Senate will never ratify it' is: (a) scope shift (b) too strong.",
    "a": "Chain: ratified → committee-approved → not opposed by the Secretary. The Secretary opposes the accord, so it was not committee-approved, so it was not ratified. Answer: the Senate has not ratified it. \"Never submitted\" is a scope shift; \"will never ratify\" is too strong (future).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-05 (Lesson #3)",
    "last_tested": "2026-10-06",
    "next_due": "2026-10-12",
-   "history": "✔ Lessons #3, #4. Chains drilled again on Oct 19 (C046) and Nov 1 (the visa-officer item).",
+   "history": "✔ Lessons #3, #4. Chains drilled again on Oct 19 (C046) and Nov 1 (the visa-officer item). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 Senate has not ratified it · 2 a · 3 b"
   },
   {
    "id": "C011",
    "track": "H",
-   "q": "What did McCulloch v. Maryland (1819) decide? Name the two holdings and the constitutional basis for each.",
+   "q": "McCulloch v. Maryland (1819). 1) Holding 1 (≤5 words) + clause? 2) Holding 2 (≤5 words) + clause? 3) Chief Justice?",
    "a": "(1) Congress may charter a national bank although the Constitution never mentions one: implied powers (Necessary and Proper Clause). (2) States may not tax a federal institution: the Supremacy Clause (\"the power to tax is the power to destroy\"). Chief Justice Marshall. Both favour federal power.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-05 (Lesson #3)",
    "last_tested": "2026-10-10",
    "next_due": "2026-10-13",
-   "history": "✘ Lesson #3; ½ Lessons #4–#6 (Supremacy Clause not named); ✔ Lesson #7.",
+   "history": "✘ Lesson #3; ½ Lessons #4–#6 (Supremacy Clause not named); ✔ Lesson #7. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 Congress may charter a bank; Necessary and Proper (implied powers) · 2 states can't tax federal bank; Supremacy · 3 Marshall"
   },
   {
    "id": "C012",
    "track": "E",
-   "q": "Country A makes 12 tractors OR 24 tons of grain per day; Country B makes 5 tractors OR 15 tons of grain. Who has the comparative advantage in tractors, and what trade price (grain per tractor) leaves both better off? What is the first step of the method?",
+   "q": "A: 12 tractors OR 24 grain; B: 5 tractors OR 15 grain. 1) Step 1 (≤5 words)? 2) Cost of 1 tractor: A = ?, B = ? 3) Comparative advantage in tractors: A/B? 4) Price range (grain per tractor)?",
    "a": "Step 1: write each opportunity cost as a number. A: 1 tractor = 2 grain. B: 1 tractor = 3 grain. A has the comparative advantage in tractors (B in grain). Any price between 2 and 3 grain per tractor leaves both better off.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-06 (Lesson #4)",
    "last_tested": "2026-10-12",
    "next_due": "2026-10-19",
-   "history": "✔ Lessons #4, #5, #6, #9. Habits: write the numbers, check the direction of the trade.",
+   "history": "✔ Lessons #4, #5, #6, #9. Habits: write the numbers, check the direction of the trade. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 write each opportunity cost · 2 A 2, B 3 · 3 A · 4 between 2 and 3"
   },
   {
    "id": "C013",
    "track": "L",
-   "q": "Write each as an arrow and contrast them: (a) \"The talks continue unless the delegation walks out.\" (b) \"No ambassador may sign the accord without the Secretary's approval.\" Why does \"unless\" put a NOT on the if-side but \"without\" doesn't?",
+   "q": "1) Arrow: \"The talks continue unless the delegation walks out.\" 2) Arrow: \"No ambassador may sign without the Secretary's approval.\" 3) Which puts a NOT on the if-side: unless / without?",
    "a": "(a) ¬walk out → talks continue (contrapositive: talks stop → walk out). (b) sign → approval (contrapositive: no approval → cannot sign). \"X unless Y\" = if not Y, then X. \"A without B\" = A requires B: A → B, with B on the THEN side. Shortcut for \"without\": \"Every X has Y\".",
    "box": 2,
    "warn": 0,
    "created": "2026-10-06 (Lesson #4)",
    "last_tested": "2026-10-10",
    "next_due": "2026-10-13",
-   "history": "✘ Lessons #4, #6 (the converse); ½ Lesson #5; ✔ Lesson #7 (plain words: result and exception).",
+   "history": "✘ Lessons #4, #6 (the converse); ½ Lesson #5; ✔ Lesson #7 (plain words: result and exception). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 not walk out → talks continue · 2 sign → approval · 3 unless"
   },
   {
    "id": "C014",
    "track": "E",
-   "q": "A lawyer is faster than her assistant at both typing and legal work. Why should she still delegate the typing? Apply the same logic to a superpower and a smaller ally.",
+   "q": "A lawyer is faster than her assistant at typing and legal work. 1) Should she delegate typing? y/n 2) Reason (2 words)? 3) Being better at both = (a) absolute (b) comparative advantage? 4) Superpower and ally version (1–2 words)?",
    "a": "Opportunity cost: every hour typing costs her valuable legal work; the assistant gives up far less by typing. Being better at both (absolute advantage) does not make trade pointless; gains from trade need only different opportunity costs. Ally version: the superpower's forces have a high opportunity cost, so letting an ally handle regional tasks is burden-sharing.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-06 (Lesson #4)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-19",
-   "history": "✔ Lessons #4, #5, #8. Ally half not yet asked.",
+   "history": "✔ Lessons #4, #5, #8. Ally half not yet asked. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 y · 2 opportunity cost · 3 a · 4 burden-sharing"
   },
   {
    "id": "C015",
    "track": "P",
-   "q": "Socrates says \"the unexamined life is not worth living.\" Write it as a conditional with its contrapositive. Does the unqualified wording prove that examination is the source of all value?",
+   "q": "\"The unexamined life is not worth living.\" 1) Arrow? 2) Contrapositive? 3) Examination is (n)ecessary / (s)ufficient / (b)oth? 4) Does it show examination is the only source of value? y/n",
    "a": "Unexamined → not worth living; contrapositive: worth living → examined. Examination is a necessary condition (a gate or threshold). The text does not show it is sufficient or the only source of value; silence about other goods is not proof they have no value (compare \"no one may practise surgery without a licence\"). Answer from what the text licenses (C004).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-08 (Lesson #5)",
    "last_tested": "2026-10-09",
    "next_due": "2026-10-12",
-   "history": "✔2.8 Lesson #6.",
+   "history": "✔2.8 Lesson #6. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 unexamined → not worth living · 2 worth living → examined · 3 n · 4 n"
   },
   {
    "id": "C016",
    "track": "P",
-   "q": "Describe the Socratic method in three steps, and say what the two kinds of counterexample show. Apply it to \"Courage is staying at your post.\"",
+   "q": "Socratic method. 1) The three steps (1–2 words each)? 2) A case that meets the definition but isn't the thing shows it is not: n / s? 3) A case that is the thing but fails the definition shows it is not: n / s? 4) Name the productive dead end (1 word).",
    "a": "(1) Get a definition. (2) Test it with a counterexample. (3) Accept that the definition fails, or refine it, and repeat until aporia (a productive dead end). A case that meets the definition but isn't the thing (enemy ran first; staying out of cowardice) shows the definition is not sufficient. A case that is the thing but fails the definition (leaving the post to rescue a friend) shows it is not necessary. A definition claims both directions.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-08 (Lesson #5)",
    "last_tested": "2026-10-14",
    "next_due": "2026-10-19",
-   "history": "½ Lessons #6–#8 (label swap); ✔ Lesson #11, whole card cold.",
+   "history": "½ Lessons #6–#8 (label swap); ✔ Lesson #11, whole card cold. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 define, counterexample, refine/repeat · 2 s (not sufficient) · 3 n (not necessary) · 4 aporia"
   },
   {
    "id": "C017",
    "track": "L",
-   "q": "\"The talks continue unless the delegation walks out.\" Is the contrapositive safe with no extra assumption? Give it, and say what the converse would add.",
+   "q": "\"The talks continue unless the delegation walks out.\" 1) Contrapositive? 2) Safe with no extra assumption? y/n 3) The converse is (a) safe (b) the trap?",
    "a": "Contrapositive: talks stop → the delegation walked out. It follows from the arrow alone. The converse (talks continue → no walkout) is the trap: walking out is necessary for the talks to stop, not sufficient. Rule: the contrapositive is always safe; the converse and the inverse need extra assumptions.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-08 (Lesson #5)",
    "last_tested": "2026-10-10",
    "next_due": "2026-10-13",
-   "history": "✘ Lesson #6; ✔2.8 Lesson #7.",
+   "history": "✘ Lesson #6; ✔2.8 Lesson #7. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 talks stop → walked out · 2 y · 3 b"
   },
   {
    "id": "C018",
    "track": "Q",
-   "q": "Of 5 officers, 3 are Political-cone. Two are chosen at random without replacement. What is P(at least one is Political)? Before any numbers: what is the complement event in words?",
+   "q": "5 officers, 3 Political; pick 2 without replacement. 1) The complement of 'at least one Political', in words? 2) Its probability? 3) P(at least one)?",
    "a": "Complement of \"at least one Political\" = \"neither is Political\". Only 2 of the 5 are non-Political: 2/5 × 1/4 = 10%. So P(at least one) = 90%. Trap: 3/5 × 2/4 = 30% is \"both Political\", not \"neither\". Habit: name the event in words before any fractions.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-09 (Lesson #6)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-19",
-   "history": "✘ Lesson #6; ✔ Lesson #7; ✔3 Lesson #8.",
+   "history": "✘ Lesson #6; ✔ Lesson #7; ✔3 Lesson #8. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 neither is Political · 2 2/5 × 1/4 = 1/10 · 3 9/10 (90%)"
   },
   {
    "id": "C019",
    "track": "L",
-   "q": "Given the arrow \"no revocation → embassy stays open\", write its converse, inverse and contrapositive. Which one is equivalent, and why are the other two traps?",
+   "q": "Arrow: no revocation → embassy stays open. Write: 1) converse 2) inverse 3) contrapositive. 4) Which one is equivalent?",
    "a": "Converse (swap): embassy stays open → no revocation. Inverse (negate both in place): revocation → embassy doesn't stay open. Contrapositive (swap AND negate): embassy doesn't stay open → revocation. Only the contrapositive is equivalent; the others fail because the embassy could stay open even after a revocation.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-09 (Lesson #6)",
    "last_tested": "2026-10-15",
    "next_due": "2026-10-22",
-   "history": "✔3 Lesson #7; ½ Lesson #8; ✔ Lesson #12. Nov 1: his own wording of converse/inverse was muddled in a trap discussion; Nov 2: he named \"converse\" correctly for the ambassador choice (ii). Retest with arrows.",
+   "history": "✔3 Lesson #7; ½ Lesson #8; ✔ Lesson #12. Nov 1: his own wording of converse/inverse was muddled in a trap discussion; Nov 2: he named \"converse\" correctly for the ambassador choice (ii). Retest with arrows. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 stays open → no revocation · 2 revocation → doesn't stay open · 3 doesn't stay open → revocation · 4 contrapositive"
   },
   {
    "id": "C020",
    "track": "Q",
-   "q": "Compute 4/6 × 3/5 with no calculator and no decimals. Why is converting 4/6 to 0.6 a trap?",
+   "q": "1) 4/6 × 3/5 = ? (fraction, no decimals) 2) First move (1 word)? 3) 4/6 as a decimal is 0.6? y/n",
    "a": "4/6 = 2/3, and 2/3 × 3/5 = 6/15 = 2/5 = 40%. Cancel before multiplying. 4/6 is 0.667, not 0.6; rounding turned 40% into 36%. Rule: keep probabilities as fractions until the last step, write each step, sanity-check.",
    "box": 3,
    "warn": 0,
    "created": "2026-10-09 (Lesson #6)",
    "last_tested": "2026-10-14",
    "next_due": "2026-10-21",
-   "history": "✘ Lesson #6; ✔ Lessons #7, #11.",
+   "history": "✘ Lesson #6; ✔ Lessons #7, #11. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 2/5 · 2 cancel · 3 n (0.667)"
   },
   {
    "id": "C021",
    "track": "L",
-   "q": "Take \"If A, then B\". Name the four moves and say which are valid: (1) A, so B. (2) not B, so not A. (3) B, so A. (4) not A, so not B.",
+   "q": "If A then B. Valid or invalid, and name: 1) A, so B 2) not B, so not A 3) B, so A 4) not A, so not B",
    "a": "(1) Affirming the antecedent: valid. (2) Denying the consequent: valid (the contrapositive). (3) Affirming the consequent: invalid (converse). (4) Denying the antecedent: invalid (inverse). Both fallacies fail because A is sufficient for B but not necessary; they would be valid only for a biconditional.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-10 (Lesson #7)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-14",
-   "history": "✔ Lessons #7, #8. Names of the moves still unstable in use. PT 1: a parallel-flaw item that ran the arrow backward (C030).",
+   "history": "✔ Lessons #7, #8. Names of the moves still unstable in use. PT 1: a parallel-flaw item that ran the arrow backward (C030). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 valid (affirming antecedent) · 2 valid (contrapositive) · 3 invalid (affirming consequent/converse) · 4 invalid (denying antecedent/inverse)"
   },
   {
    "id": "C022",
    "track": "L",
-   "q": "\"A state receives the grant only if it passes the audit.\" Write the arrow. Does \"only if\" tell you that passing the audit is sufficient? How is \"only if\" different from \"if and only if\"? Give a quick test.",
+   "q": "\"A state receives the grant only if it passes the audit.\" 1) Arrow? 2) Is passing the audit sufficient? y/n 3) 'If and only if' claims (1 / 2) directions? 4) Quick test (≤8 words)?",
    "a": "grant → audit (requirement on the THEN side). \"Only if\" marks the audit as necessary, a gate; it does not make it sufficient. \"If and only if\" claims both directions. Test: can the result happen without X? If not, then result → X. Ticket picture: \"You may board only if you have a ticket.\"",
    "box": 2,
    "warn": 0,
    "created": "2026-10-10 (Lesson #7)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-14",
-   "history": "✘ Lesson #7; ✔2.8 Lesson #8; later slips in cold written arrows with \"only\" (C025, C033).",
+   "history": "✘ Lesson #7; ✔2.8 Lesson #8; later slips in cold written arrows with \"only\" (C025, C033). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 grant → audit · 2 n · 3 2 · 4 can the result happen without X?"
   },
   {
    "id": "C023",
    "track": "L",
-   "q": "\"Every ally voted yes. Every committee member voted yes.\" What follows about allies and committee members? What is the chain rule, and what do you get from a chain's contrapositive?",
+   "q": "\"Every ally voted yes. Every committee member voted yes.\" 1) Does anything follow about allies and committee members? y/n 2) Arrows link only when ___ of one = ___ of the next? 3) A chain's contrapositive runs: forward / backward?",
    "a": "Nothing follows: both arrows END at \"voted yes\", and a shared end links nothing. Arrows link only when the END of one is the START of the next. The contrapositive runs backward through the whole chain. The converse of a chain is a trap.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-10 (Lesson #7)",
    "last_tested": "2026-10-11",
    "next_due": "2026-10-14",
-   "history": "✔3 Lesson #8. Reused in L16 (the river picture, C057).",
+   "history": "✔3 Lesson #8. Reused in L16 (the river picture, C057). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 n · 2 end, start · 3 backward"
   },
   {
    "id": "C024",
    "track": "L",
-   "q": "\"Most analysts back plan A. Most analysts back plan B.\" (same group.) Must someone back both, and why? For 30 delegates, where most attended the morning session and most the afternoon, what is the smallest number who attended both? Show the arithmetic.",
+   "q": "\"Most\" + \"most\" of one group of 30. 1) Must some be in both? y/n 2) Smallest 'most' of 30? 3) Minimum overlap (show the sum)? 4) Does 'most + some' force overlap? y/n",
    "a": "Yes. \"Most\" = MORE than half, so the two groups together count more than the whole group, and the excess must be counted twice. Smallest \"most\" of N is the first whole number above N/2 (30 → 16). Minimum overlap = most + most − N: 16 + 16 − 30 = 2. Odd N → 1, even N → 2. Only works for the SAME group; \"most + some\" forces nothing.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-11 (Lesson #8)",
    "last_tested": "2026-10-15",
    "next_due": "2026-10-19",
-   "history": "✘ at conf 3 ×2 in Lessons #8–#9 (⚠️ cleared); ✔3 Lessons #10, #11, #12.",
+   "history": "✘ at conf 3 ×2 in Lessons #8–#9 (⚠️ cleared); ✔3 Lessons #10, #11, #12. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 y · 2 16 · 3 16 + 16 − 30 = 2 · 4 n"
   },
   {
    "id": "C025",
    "track": "L",
-   "q": "\"Of 30 delegates, most attended the morning session and most attended the afternoon session. A delegate is admitted to the closing dinner only if that delegate attended both sessions.\" Must at least two have attended both? Must at least two have been admitted? Why?",
+   "q": "30 delegates; most attended morning, most attended afternoon; admitted to dinner → attended both. 1) At least 2 attended both? y/n 2) At least 2 admitted? y/n 3) Why not (1 word)?",
    "a": "Attended both: yes (16 + 16 − 30 = 2). Admitted: NOT forced. Arrow: admitted → attended both (a gate). \"At least two admitted\" runs the arrow backward (the converse). Habit: write the arrow first and ask which side the requirement goes on.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-11 (Lesson #8)",
    "last_tested": "2026-10-14",
    "next_due": "2026-10-19",
-   "history": "✘ at conf 3 Lesson #8 (⚠️ cleared); ✔ Lesson #9; ✔3 Lesson #11.",
+   "history": "✘ at conf 3 Lesson #8 (⚠️ cleared); ✔ Lesson #9; ✔3 Lesson #11. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 y · 2 n · 3 converse"
   },
   {
    "id": "C026",
    "track": "L",
-   "q": "Write the real logical opposite of each: (a) \"All the delegates agreed.\" (b) \"No delegate agreed.\" (c) \"Some delegates agreed.\" (d) \"Most delegates agreed.\" Why is \"none agreed\" not the opposite of \"all agreed\"?",
+   "q": "Write the logical opposite: 1) All agreed 2) No one agreed 3) Some agreed 4) Most agreed. 5) Is 'none agreed' the opposite of 'all agreed'? y/n",
    "a": "(a) Not all agreed (includes \"none\"). (b) Some agreed. (c) None agreed. (d) Half or fewer agreed. \"All\" and \"none\" can both be false, so they are not opposites. The opposite is the smallest change that breaks the claim.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-12 (Lesson #9)",
    "last_tested": "2026-10-15",
    "next_due": "2026-10-19",
-   "history": "✔ Lesson #9; ½ Lesson #11; ✔3 Lesson #12. Nov 1: \"the opposite of 'fewer' is 'not fewer' (the same or more)\" came up again (C056).",
+   "history": "✔ Lesson #9; ½ Lesson #11; ✔3 Lesson #12. Nov 1: \"the opposite of 'fewer' is 'not fewer' (the same or more)\" came up again (C056). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 not all agreed · 2 some agreed · 3 none agreed · 4 half or fewer agreed · 5 n"
   },
   {
    "id": "C027",
    "track": "L",
-   "q": "Write the opposite of (a) \"If the talks collapse, the aid is frozen.\" (b) \"No cable is released without approval.\" Why is \"If the talks collapse, the aid is NOT frozen\" not the opposite of (a)?",
+   "q": "Opposite of: 1) 'If the talks collapse, the aid is frozen.' 2) 'No cable is released without approval.' 3) Is 'if collapse, aid NOT frozen' the opposite? y/n",
    "a": "The opposite of \"if A then B\" is \"A and not B\". (a) The talks collapse AND the aid is not frozen. (b) A cable is released AND it was not approved. \"If A then not B\" can be true at the same time as the original, so it is not the opposite.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-12 (Lesson #9)",
    "last_tested": "2026-10-15",
    "next_due": "2026-10-19",
-   "history": "✘ Lesson #9; ✔3 faded; ½ Lesson #11; ✔3 Lesson #12. Extended to \"or\" and \"and\" in C044.",
+   "history": "✘ Lesson #9; ✔3 faded; ½ Lesson #11; ✔3 Lesson #12. Extended to \"or\" and \"and\" in C044. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 talks collapse AND aid not frozen · 2 a cable released AND not approved · 3 n"
   },
   {
    "id": "C028",
    "track": "L",
-   "q": "How do you use the negation test on a necessary-assumption question, and why is an answer that merely restates a premise a trap? Apply it: \"Every delegate who received the briefing packet voted for the resolution. So the packet persuaded delegates to vote for it.\" What kind of choice is necessary?",
+   "q": "\"Every packet recipient voted yes, so the packet persuaded them.\" 1) What do you write before the choices? 2) Necessary assumption (≤10 words)? 3) A restated premise is a trap because its negation: (a) breaks the conclusion (b) only contradicts a premise?",
    "a": "Write the conclusion and the specific gap BEFORE any choice. Negate the choice correctly, then ask whether the CONCLUSION still follows. A restated premise adds nothing: its negation contradicts a premise, which is not the same as breaking the argument. Necessary here: some packet recipients would not have voted yes without the packet. Reject the converse, the restated premise, and the too-strong \"the only thing that persuaded anyone\". Link: C003, C046, C053, C057 (the sufficient-assumption mirror).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-12 (Lesson #9)",
    "last_tested": "2026-10-20",
    "next_due": "2026-10-23",
-   "history": "✘ at conf 3 in Lessons #9–#12 (four in a row); ✔ cold in Lessons #13 and #15 (⚠️ cleared; Box 2). Still thin on Oct 20: the first gap should be specific, and he missed the second gap (checked out vs. read). Nov 1 (not a scheduled test): gap-first and right on four fresh items (Varna, Dalton, consulate, tunnel) with the negation test applied correctly.",
+   "history": "✘ at conf 3 in Lessons #9–#12 (four in a row); ✔ cold in Lessons #13 and #15 (⚠️ cleared; Box 2). Still thin on Oct 20: the first gap should be specific, and he missed the second gap (checked out vs. read). Nov 1 (not a scheduled test): gap-first and right on four fresh items (Varna, Dalton, consulate, tunnel) with the negation test applied correctly. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 conclusion + gap · 2 some recipients would not have voted yes without it · 3 b"
   },
   {
    "id": "C029",
    "track": "L",
-   "q": "On a necessary-assumption question, what do you write down BEFORE reading the choices? Apply it: \"The ministry sold every armored car it owned last spring. None of the twelve cars it bought in 2020 appears in last spring's sales records. So none of those twelve cars was armored.\" What is the gap, and which three kinds of wrong answer do you reject?",
+   "q": "\"The ministry sold every armored car last spring; none of the twelve 2020 cars is in those sales records; so none was armored.\" 1) The gap (≤10 words)? 2) Necessary assumption (≤8 words)? 3) Three wrong-answer kinds (1–2 words each)?",
    "a": "Before the choices: the conclusion in one line and the gap (the specific alternative that would break the argument). Here: an armored car from the 2020 batch could have left the fleet BEFORE last spring. Necessary: none of the twelve left the ministry before last spring. Reject: (a) restatements; (b) too-strong claims; (c) right topic that doesn't touch the gap. Check the pick with the negation test.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
    "last_tested": "2026-11-02",
    "next_due": "2026-11-05",
-   "history": "seeded by PT 1 (5 of 9 non-timing misses in scored LR were in the assumption family). Original example. **Nov 2 (cold, conf 3): ✔** the conclusion ✔; the gap ✔ (a 2020 car sold before last spring); the assumption not stated as the negation of the gap, and the three kinds of wrong answer not asked. Box 2.",
+   "history": "seeded by PT 1 (5 of 9 non-timing misses in scored LR were in the assumption family). Original example. **Nov 2 (cold, conf 3): ✔** the conclusion ✔; the gap ✔ (a 2020 car sold before last spring); the assumption not stated as the negation of the gap, and the three kinds of wrong answer not asked. Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 a 2020 armored car left before last spring · 2 none of the twelve left before then · 3 restatement, too strong, topic not gap"
   },
   {
    "id": "C030",
    "track": "L",
-   "q": "On a sufficient-assumption (\"the conclusion follows logically if…\") or principle-justify question, what must the right answer do? Apply it: \"If the aid budget is cut, most rural clinics will close. The aid budget has been cut. So most rural patients will lose access to care.\" Which choice justifies it: (i) \"If most rural clinics close, most rural patients will lose access to care\" or (ii) \"If most rural clinics stay open, most rural patients will keep access to care\"? Name the trap.",
+   "q": "\"If aid is cut, most rural clinics close. Aid was cut. So most rural patients lose care.\" 1) Justifies it: (i) clinics close → patients lose care or (ii) clinics open → patients keep care? 2) The other is the (1 word)? 3) The right answer starts at ___ and ends at ___?",
    "a": "The right answer bridges the gap: it starts from what the premises deliver and ends at the conclusion's new term. (i) does this. (ii) is the INVERSE of (i); it says what happens if the trigger does NOT occur, so it can't deliver the conclusion. A principle must mention the conclusion's terms and fire on the facts given.",
    "box": 1,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "seeded by PT 1 (a justify item answered with the inverse). Original example. Links: C021, C022, C057, C058. L16 (Nov 2) taught the method; test this card cold.",
+   "history": "seeded by PT 1 (a justify item answered with the inverse). Original example. Links: C021, C022, C057, C058. L16 (Nov 2) taught the method; test this card cold. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-04",
@@ -445,33 +474,35 @@
      "note": "Nov 17: picked (i) ok, rule roughly ok (ironclad premises->conclusion); (ii) trap explained as 'open is necessary, doesn't say open alone suffices' - not named as the inverse whose trigger (clinics stay open) is not what the premises deliver. 3rd half in a row -> mini-lesson (Mon Nov 23, L track)"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 i · 2 inverse · 3 what the premises deliver; the conclusion's new term"
   },
   {
    "id": "C031",
    "track": "L",
-   "q": "\"Critics say the new embassy compound is a waste of money. They are mistaken. The compound replaces three leased buildings, and within a decade the savings on rent will exceed its cost.\" What is the main conclusion, and what is the trap answer?",
+   "q": "\"Critics say the compound is a waste. They are mistaken. It replaces three leases; rent savings will exceed its cost.\" 1) Main conclusion (≤6 words)? 2) Role of the rent-savings sentence (1 word)? 3) Test word?",
    "a": "Main conclusion: the critics are mistaken; the new compound is not a waste of money. \"The rent savings will exceed the cost\" is the support. Rule: when the author says \"X is false\" or \"they are mistaken\", that rebuttal IS the main conclusion. Test: \"because\" between the two candidates.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
    "last_tested": "2026-10-16",
    "next_due": "2026-10-19",
-   "history": "PT 1: both rebuttal main points missed. ✔ Lesson #13 (first gave the support, then corrected; Box 2). Related: C049, C055.",
+   "history": "PT 1: both rebuttal main points missed. ✔ Lesson #13 (first gave the support, then corrected; Box 2). Related: C049, C055. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 the compound is not a waste · 2 support/premise · 3 because"
   },
   {
    "id": "C032",
    "track": "T",
-   "q": "What is your LR pacing rule, and what are the five trap answer types you check every wrong choice against?",
+   "q": "1) Average time per LR question? 2) At what time do you pick, flag and move? 3) Ever leave a blank? y/n 4) The five traps (1–3 words each)?",
    "a": "Pacing: about 1:20 per question on average; at about 2:00 on any question, pick the best remaining answer, flag it and move on; come back only if time is left; never leave a blank. Traps: (1) too strong; (2) overreach from a hedge (the stimulus says can / need not, the choice says will / always); (3) half right; (4) restates a premise or the conclusion; (5) right topic, wrong logic (or the right logic in the wrong direction: converse/inverse).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-13 (from LSAT PT 1 analysis)",
    "last_tested": "2026-11-06",
    "next_due": "2026-11-09",
-   "history": "✘ Lesson #13; ½ Lesson #14 (rule wrong); ½ Nov 1 (conf 2; pacing only \"2 minutes\"; hedge-overreach and half right missing); **½ Nov 2 (cold, conf 2.7):** pacing given as 2:00 / 100 s / 160 s in one answer (the rule is about 1:20 average, pick-flag-move at 2:00, never blank); traps: too strong ✔, restates ✔, necessary/sufficient (converse/inverse) ✔; the hedge trap given reversed (\"always → sometimes\"); half right missing (he said he did not remember the last one). Retest cold Tue.",
+   "history": "✘ Lesson #13; ½ Lesson #14 (rule wrong); ½ Nov 1 (conf 2; pacing only \"2 minutes\"; hedge-overreach and half right missing); **½ Nov 2 (cold, conf 2.7):** pacing given as 2:00 / 100 s / 160 s in one answer (the rule is about 1:20 average, pick-flag-move at 2:00, never blank); traps: too strong ✔, restates ✔, necessary/sufficient (converse/inverse) ✔; the hedge trap given reversed (\"always → sometimes\"); half right missing (he said he did not remember the last one). Retest cold Tue. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -487,33 +518,35 @@
      "note": "pacing right at last: 1:20, 2:00 flag/guess/move; all five traps named"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 1:20 · 2 2:00 · 3 n · 4 too strong, hedge overreach, half right, restates premise/conclusion, topic not logic (or wrong direction)"
   },
   {
    "id": "C033",
    "track": "L",
-   "q": "Athens says: \"Justice is only talked about between equals in power.\" Write it as one arrow with the requirement on the THEN side. Is \"If we are equals in power, then we may talk about justice\" the same claim? What does the right arrow let you conclude about Melos?",
+   "q": "Athens: \"Justice is only talked about between equals in power.\" 1) Arrow? 2) Is 'if equals, we may talk about justice' the same claim? y/n 3) Conclusion about Melos (≤5 words)?",
    "a": "Talk of justice → equals in power. Equality is the necessary condition (a gate); it is not sufficient. \"If equals, then we MAY talk about justice\" is a permission and rules nothing out, so it is not the claim. Contrapositive: unequal → no justice talk. Melos is unequal to Athens, so (on Athens' premise) justice talk is out. Rule: \"only\", \"only between\", \"without\", \"requires\" put the requirement on the THEN side.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
    "last_tested": "2026-10-19",
    "next_due": "2026-10-22",
-   "history": "✘ Lesson #10; ✔ Lesson #12; ½ Lesson #13; ✔ Lesson #14 (cold). Precision: the claim is about talking about justice, not about justice itself.",
+   "history": "✘ Lesson #10; ✔ Lesson #12; ½ Lesson #13; ✔ Lesson #14 (cold). Precision: the claim is about talking about justice, not about justice itself. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 justice talk → equals in power · 2 n · 3 unequal, so no justice talk"
   },
   {
    "id": "C034",
    "track": "P",
-   "q": "In the Melian Dialogue, what is Athens' position, and how does it answer each of the Melians' three appeals? Does Thucydides endorse it? Separate \"should\" from \"will\".",
+   "q": "Melian Dialogue. 1) Athens' position (≤8 words)? 2) Athens' reply to each Melian appeal: fair play → ?, the gods → ?, Sparta → ? (1–3 words each) 3) Does Thucydides endorse it? y/n 4) What follows next (2 words)?",
    "a": "Athens: the strong do what they can and the weak suffer what they must; justice is talked about only between equals (realism). The Melians appeal to (1) fair play as Athens' own long-term interest, (2) the gods, (3) Spartan help. Athens answers: (1) its subjects are watching, so sparing Melos would look like weakness (reputation); (2) gods and men both rule wherever they can; (3) hope is the comfort of the desperate (Sparta acts on its own interest, not on kinship). Melos refuses; no help comes; Athens kills the men and enslaves the rest. The speech describes how Athens argued; it is not Thucydides' own verdict (the Sicilian disaster follows, with no explicit link). Justice may deserve weight (should) without carrying weight in the outcome (will).",
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "½ Lessons #12–#14; ✘ conf 0 Lesson #15 (Sparta pair); ✔ conf 3 Lesson #16 right after the 5-minute re-teach (not a cold retest). **Nov 2 (cold, unrated): ½.** Position ✔; Sparta ✔ (hope is the comfort of the desperate); gods ✔ in substance (worded \"ruled by the same power-based logic\"; Athens' claim is what gods and men DO); appeal 1 given as \"justice\" instead of fair play as Athens' own interest, and the reputation reply attached to Sparta. Image that worked: each appeal turns to something outside Athens' power (fairness, heaven, a friend) and Athens answers each with the same move: power and interest beat all three.",
+   "history": "½ Lessons #12–#14; ✘ conf 0 Lesson #15 (Sparta pair); ✔ conf 3 Lesson #16 right after the 5-minute re-teach (not a cold retest). **Nov 2 (cold, unrated): ½.** Position ✔; Sparta ✔ (hope is the comfort of the desperate); gods ✔ in substance (worded \"ruled by the same power-based logic\"; Athens' claim is what gods and men DO); appeal 1 given as \"justice\" instead of fair play as Athens' own interest, and the reputation reply attached to Sparta. Image that worked: each appeal turns to something outside Athens' power (fairness, heaven, a friend) and Athens answers each with the same move: power and interest beat all three. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-04",
@@ -536,19 +569,20 @@
      "note": "Nov 17: position garbled ('power only, or justice only, exists among equals'); reputation reply to fair-play appeal missing (gave 'realpolitik keeps you strong'); Sparta + gods ok; no endorsement ok; next episode again misnamed as the 'ruining of an Athenian colony' (it is the Sicilian expedition disaster); should/will given as ought vs expedient/actual"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 strong do what they can, weak suffer · 2 reputation (subjects watching); gods rule where they can too; hope/Sparta acts on interest · 3 n · 4 Sicilian disaster"
   },
   {
    "id": "C035",
    "track": "T",
-   "q": "An RC passage says an author narrates speech X, then event Y directly after it, draws no explicit connection, but \"the placement is deliberate.\" Why is \"X caused Y\" a trap, and what is the supported inference?",
+   "q": "RC: speech X, then event Y right after it, no stated link, 'the placement is deliberate'. 1) 'X caused Y' is which trap? 2) Supported inference (≤8 words)? 3) Is 'Y caused X' licensed? y/n",
    "a": "The passage licenses only a suggestion: the placement may invite the reader to see X's confidence as undercut by Y. \"X caused Y\" overreaches from a hedge (trap type 2, C032); so does \"Y caused X\": no cause in either direction is licensed. Other wrong answers: \"the author endorses X\" contradicts the passage; \"readers are wrong to read the author at all\" is too extreme. Name the specific flaw in each wrong answer. Picture (Nov 2): a film cuts from a man's boast to a storm; the cut never says the boast caused the storm, it makes you FEEL the boast is hollow. \"Deliberate placement\" works on the reader.",
    "box": 1,
    "warn": 0,
    "created": "2026-10-14 (Lesson #10)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "✔3 Lesson #10; ½ Lessons #15, #16 (calls it \"too strong\" but the inference stays vague; the direction came from the tutor twice); **½ Nov 2 (cold, conf 3, third run):** \"caused\" too strong ✔, but the inference offered was \"maybe Y caused X\" (still a causal claim). A mini-lesson with the film-cut picture followed. Missed-twice rule applied. Original item.",
+   "history": "✔3 Lesson #10; ½ Lessons #15, #16 (calls it \"too strong\" but the inference stays vague; the direction came from the tutor twice); **½ Nov 2 (cold, conf 3, third run):** \"caused\" too strong ✔, but the inference offered was \"maybe Y caused X\" (still a causal claim). A mini-lesson with the film-cut picture followed. Missed-twice rule applied. Original item. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-04",
@@ -571,103 +605,110 @@
      "note": "Nov 17: both X->Y and Y->X named as traps; inference still 'some relationship', not the reader-undercut reading (6th half)"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 overreach from a hedge · 2 placement invites reader to see X undercut · 3 n"
   },
   {
    "id": "C036",
    "track": "E",
-   "q": "A frost destroys half of this year's coffee crop. What happens to the price and to the quantity traded, and which curve shifts and which quantity moves along?",
+   "q": "A frost destroys half the coffee crop. 1) Which curve shifts, and which way? 2) Price ↑/↓? 3) Quantity traded ↑/↓? 4) The demand side: (a) shifts (b) moves along?",
    "a": "Supply shifts left. Demand does not shift. The price rises, and buyers respond by buying less: the quantity demanded falls ALONG the unchanged demand curve (60 → 40 in the lesson table). Price up, quantity traded down. Rule: a non-price cause shifts the list of the side it hits; a price change moves you along the other side. Story: fewer sacks at market, buyers outbid each other, the price climbs until what buyers still want equals what sellers have.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-14 (Lesson #11)",
    "last_tested": "2026-10-19",
    "next_due": "2026-10-22",
-   "history": "½ conf 3 ⚠️ Lesson #12 (said demand shifted); ✔3 Lessons #13, #14 (⚠️ cleared).",
+   "history": "½ conf 3 ⚠️ Lesson #12 (said demand shifted); ✔3 Lessons #13, #14 (⚠️ cleared). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 supply, left · 2 ↑ · 3 ↓ · 4 b"
   },
   {
    "id": "C037",
    "track": "E",
-   "q": "A fad adds buyers at every price while a frost cuts supply at the same time. What happens to the price, and what happens to the quantity traded? Is the equilibrium price an average of what buyers and sellers want?",
+   "q": "A fad adds buyers while a frost cuts supply. 1) Price: ↑ / ↓ / uncertain? 2) Quantity: ↑ / ↓ / uncertain? 3) Is the equilibrium price an average? y/n",
    "a": "Demand shifts right and supply shifts left. Both push the price UP, so the price rises for certain. The two shifts push the quantity in opposite directions, so the quantity is uncertain: it depends on which shift is bigger. The equilibrium is not an average: it is the price at which the quantity buyers want equals the quantity sellers offer.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-14 (Lesson #11)",
    "last_tested": "2026-10-19",
    "next_due": "2026-10-22",
-   "history": "✔3 Lesson #14.",
+   "history": "✔3 Lesson #14. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 ↑ · 2 uncertain · 3 n"
   },
   {
    "id": "C038",
    "track": "L",
-   "q": "\"Fare-free weekends raised transit ridership by 30 percent, so fewer cars came downtown.\" Before any answer choice, state the gap in one line. What is the necessary assumption, and what happens when you negate it?",
+   "q": "\"Fare-free weekends raised ridership 30%, so fewer cars came downtown.\" 1) Gap (≤10 words)? 2) Necessary assumption (≤10 words)? 3) Negated, does the conclusion survive? y/n",
    "a": "Gap: the new riders may have been walkers or people who would not otherwise have travelled, so there is no proven switch from driving. Necessary assumption: at least some of the new riders would otherwise have driven downtown. Negation: none of the new riders would have driven, so the fall in cars is unexplained and the conclusion collapses. Link: C028, C053.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-14 (Lesson #11)",
    "last_tested": "2026-11-01",
    "next_due": "2026-11-04",
-   "history": "✔3 Lesson #11; ✘ Lesson #16 (restated the premise as the assumption; named the premise as the conclusion). **Nov 1 (cold, with C053, conf 2.7): ✔** the gap: new riders may be walkers or people who wouldn't have come downtown at all. Box 2.",
+   "history": "✔3 Lesson #11; ✘ Lesson #16 (restated the premise as the assumption; named the premise as the conclusion). **Nov 1 (cold, with C053, conf 2.7): ✔** the gap: new riders may be walkers or people who wouldn't have come downtown at all. Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 new riders may never have driven · 2 some new riders would otherwise have driven · 3 n"
   },
   {
    "id": "C039",
    "track": "Q",
-   "q": "The staff-to-case ratio is 3 to 5, and there are 40 cases. How many staff? Then: 40 lawyers split between two offices in the ratio 3 to 5. How many in each? What do you do FIRST in both?",
+   "q": "1) Staff:cases = 3:5, 40 cases → staff? 2) 40 lawyers split 3:5 → each office? 3) First move in each: scale / add the parts?",
    "a": "Name the situation first. Staff and cases are DIFFERENT things: scale. 3/5 = x/40: 40 ÷ 5 = 8, 8 × 3 = 24 staff. The lawyers are PARTS OF ONE GROUP: add the parts (3 + 5 = 8), divide the whole (40 ÷ 8 = 5), multiply: 15 and 25. Different things: scale; parts of one group: add up to the whole. Fractions before decimals; write each step.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-15 (Lesson #12)",
    "last_tested": "2026-10-19",
    "next_due": "2026-10-22",
-   "history": "✔ Lesson #12 practice; ✔3 Lesson #14.",
+   "history": "✔ Lesson #12 practice; ✔3 Lesson #14. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 24 · 2 15 and 25 · 3 first scale (different things), second add the parts (one group)"
   },
   {
    "id": "C040",
    "track": "Q",
-   "q": "4 officers clear 18 cases in 3 days. How long do 6 officers take to clear 54 cases? And if the number of officers goes from 4 to 6, what is the percent change in officers, and in the days needed for the same job?",
+   "q": "4 officers clear 18 cases in 3 days. 1) Cases per officer-day? 2) Days for 6 officers to clear 54? 3) % change in officers 4 → 6? 4) % change in days for the same job?",
    "a": "Rate per officer-day: 18 ÷ (4 × 3) = 1.5 cases. 6 officers do 9 a day, so 54 ÷ 9 = 6 days. Percent: 4 → 6 officers is +50%, but the days for the same job fall from 3 to 2, which is −33⅓%. More workers means fewer days: an inverse relation, so the percent change differs (change ÷ the ORIGINAL number each time).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-15 (Lesson #12)",
    "last_tested": "2026-11-01",
    "next_due": "2026-11-04",
-   "history": "½ Lessons #12, #15, #16 (the days percent wrong three runs). **Nov 1 (cold, conf 2.7): ✔** 6 days, +50%, −33% with no nudge (the \"from 3 to 2\" step not written; keep asking). Box 2.",
+   "history": "½ Lessons #12, #15, #16 (the days percent wrong three runs). **Nov 1 (cold, conf 2.7): ✔** 6 days, +50%, −33% with no nudge (the \"from 3 to 2\" step not written; keep asking). Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 1.5 · 2 6 · 3 +50% · 4 −33⅓%"
   },
   {
    "id": "C041",
    "track": "H",
-   "q": "Which branch holds the constitutional power to set tariffs, and how can a President impose them anyway? Give one reason Congress might regret delegating that power.",
+   "q": "Tariffs. 1) Which branch holds the power, and where (article/section)? 2) How does a President impose them (≤5 words)? 3) One risk for Congress (≤8 words)?",
    "a": "Congress: Article I, Section 8 (duties and foreign commerce); it still holds it. A President acts only under authority Congress delegates by statute (e.g. the 2026 Graham Sanctioning Russia and Iran Act: secondary tariffs on major buyers of Russian oil and gas, with a national-interest waiver). Congress can narrow or take back a delegation by a new law. Regret: one person can change trade policy quickly, or waive the very measure Congress mandated.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-16 (Lesson #13)",
    "last_tested": "2026-10-20",
    "next_due": "2026-10-23",
-   "history": "½ Lesson #13; ✔3 Lesson #15.",
+   "history": "½ Lesson #13; ✔3 Lesson #15. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 Congress, Art. I §8 · 2 authority delegated by statute · 3 one person changes or waives policy fast"
   },
   {
    "id": "C042",
    "track": "W",
-   "q": "Who imposed the 1973 oil embargo, against whom and why? What happened to the price, and in supply-and-demand terms what shifted?",
+   "q": "1973 oil embargo. 1) Who imposed it? 2) Against whom, after which war? 3) Price roughly ×? 4) Which curve shifted? 5) Short-run oil demand: elastic / inelastic?",
    "a": "The Arab members of OPEC (OAPEC), led by Saudi Arabia, embargoed the US and some allies after the **Yom Kippur War of 1973** (Egypt and Syria attacked Israel; the US backed Israel) for backing Israel. Prices roughly quadrupled; long gas lines. Supply shifted left; demand did not shift, and buyers slid up along it. Short-run oil demand is inelastic, so the price jumped by more than the quantity fell (E4). A paucity of oil. The Six-Day War was 1967, six years earlier.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-16 (Lesson #13)",
    "last_tested": "2026-11-03",
    "next_due": "2026-11-06",
-   "history": "½ Lessons #13, #15, #16 (reason and size missing); ½ ⚠️ Nov 1 (the cause given as the Six-Day War). **Nov 2 (cold, conf 2.9): ✔** the Arab OPEC members led by Saudi Arabia, the US, the Yom Kippur War of 1973, price about 4× (the supply/demand shift was not asked). First correct run; the ⚠️ stays until a second. Box 1.",
+   "history": "½ Lessons #13, #15, #16 (reason and size missing); ½ ⚠️ Nov 1 (the cause given as the Six-Day War). **Nov 2 (cold, conf 2.9): ✔** the Arab OPEC members led by Saudi Arabia, the US, the Yom Kippur War of 1973, price about 4× (the supply/demand shift was not asked). First correct run; the ⚠️ stays until a second. Box 1. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -676,47 +717,50 @@
      "note": "second clean run: Arab OPEC/Saudi, US, Yom Kippur, 4x, supply left, demand stays (slid along). Said 'cut in half' (invented figure). No confidence given."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 Arab OPEC (OAPEC), Saudi-led · 2 US and allies; Yom Kippur War · 3 ×4 · 4 supply left · 5 inelastic"
   },
   {
    "id": "C043",
    "track": "E",
-   "q": "If sanctions or tariffs remove a large share of a big supplier's oil from the market, what shifts, what slides along, and what happens to the price and the quantity traded? Why does the pump price jump, and why does that worry a government before an election?",
+   "q": "Sanctions remove a big supplier's oil. 1) Shift? 2) Price ↑/↓, quantity ↑/↓? 3) Price rises more or less than quantity falls? 4) Why it worries a government before elections (≤5 words)?",
    "a": "Supply shifts left; demand does not shift; buyers slide up along demand: price up, quantity traded down. Short-run oil demand is inelastic, so buyers cut back only a little and the price rises by more than the quantity falls. A government facing midterms fears it because voters feel prices directly. Credibility link: a threatened tariff works only if the executive follows through; a waived threat loses force (Athens' reputation argument in reverse, C034).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-16 (Lesson #13)",
    "last_tested": "2026-10-20",
    "next_due": "2026-10-23",
-   "history": "✔ Lesson #13 check; ✔3 Lesson #15 (said only \"supply will shift\"; say left).",
+   "history": "✔ Lesson #13 check; ✔3 Lesson #15 (said only \"supply will shift\"; say left). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 supply left · 2 ↑, ↓ · 3 more (inelastic) · 4 voters feel prices directly"
   },
   {
    "id": "C044",
    "track": "L",
-   "q": "Write the real logical opposite of (a) \"The delegation will bring a translator or a legal adviser.\" (b) \"The embassy was closed and the staff was evacuated.\" Does plain \"or\" allow both parts to be true? State the swap rule.",
+   "q": "1) Opposite of 'translator OR legal adviser'? 2) Opposite of 'closed AND evacuated'? 3) Plain 'or' allows both? y/n",
    "a": "De Morgan: not (A or B) = not A AND not B; not (A and B) = not A OR not B. (a) No translator AND no legal adviser (neither): you must lock both doors to break an inclusive \"or\". (b) Not closed OR not evacuated (at least one part false breaks an \"and\"). Plain \"or\" is inclusive: both allowed, so the only world that breaks it is \"neither\". \"Either… or… but not both\" is the exclusive reading and must be stated. Same idea as the opposite of \"all\", \"most\" and \"if A then B\" (C026, C027): the smallest change that breaks the claim.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
    "last_tested": "2026-10-20",
    "next_due": "2026-10-23",
-   "history": "pretest ✘ and check 2 of 3 (Lesson #14); ✔ Lesson #15 (fresh wording; skipped \"does plain or allow both?\" at first).",
+   "history": "pretest ✘ and check 2 of 3 (Lesson #14); ✔ Lesson #15 (fresh wording; skipped \"does plain or allow both?\" at first). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 neither (no translator AND no adviser) · 2 not closed OR not evacuated · 3 y"
   },
   {
    "id": "C045",
    "track": "GV",
-   "q": "What are the three steps of a GRE Text Completion item, and why does step 2 matter? Apply it: \"A single forged signature can ______ an otherwise valid contract, stripping it of its legal force.\" (preclude / vitiate / obviate)",
+   "q": "GRE Text Completion. 1) Step 2 (≤5 words)? 2) Fill: 'A forged signature can ___ a valid contract, stripping it of force.' (a) preclude (b) vitiate (c) obviate 3) Meanings of the other two (1–3 words each)?",
    "a": "(1) Read for the sentence's logic first: signal words (although, yet, but reverse; because, so, thus continue). (2) Write your OWN word for the blank before looking at the choices (\"ruin\", \"invalidate\"). (3) Match, then reread the whole sentence with the pick in it. Step 2 matters because a wrong-meaning word that sounds formal (like *preclude*) is rejected by your own prediction. Answer: *vitiate* (to spoil something so it loses force). *Preclude* rules out in advance (takes an event); *obviate* removes a need.",
    "box": 1,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
    "last_tested": "2026-11-16",
    "next_due": "2026-11-17",
-   "history": "seeded by the GV1 set (item 3 ✘ at conf 3: *preclude* for *vitiate*, no predicted word). Lesson #15: the forged-seal cloze ✔ in the V slot (not a scheduled test). Extended to two blanks in C059.",
+   "history": "seeded by the GV1 set (item 3 ✘ at conf 3: *preclude* for *vitiate*, no predicted word). Lesson #15: the forged-seal cloze ✔ in the V slot (not a scheduled test). Extended to two blanks in C059. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -738,19 +782,20 @@
      "note": "Nov 16: vitiate right; steps 2-3 right; step 1 (signal words) named but dismissed as 'doesn't matter to me'; step 2 reason not given"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 write your own word first · 2 b · 3 preclude = rule out in advance; obviate = remove a need"
   },
   {
    "id": "C046",
    "track": "L",
-   "q": "\"A grant is awarded only if the proposal passed both the technical review and the budget review. No proposal passes the budget review unless it was submitted before the deadline. Harbor's proposal was submitted after the deadline.\" Which must be true, and why is \"Harbor would have received a grant had it been on time\" wrong?",
+   "q": "grant → technical AND budget review; budget review → on time; Harbor was late. 1) What must be true (≤4 words)? 2) 'Would have got it if on time' confuses ___ with ___? 3) 'Every proposal that failed budget review was late' is the (1 word)?",
    "a": "Arrows: grant → (technical AND budget); budget review → on time. Chain: grant → budget review → on time. Contrapositive through the whole chain: late → no budget review → no grant. So Harbor did not receive a grant. \"Would have received it if on time\" mistakes a necessary condition for a sufficient one: the technical review and anything else could still fail. Wrong choices: a specific review result the stimulus never states; \"every proposal that failed the budget review was late\" is the converse of the second rule.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-19 (Lesson #14)",
    "last_tested": "2026-11-06",
    "next_due": "2026-11-09",
-   "history": "seeded by the Lesson #14 L29 item ✔3. Original item. The same pattern ✔ on Nov 1 (visa officers).",
+   "history": "seeded by the Lesson #14 L29 item ✔3. Original item. The same pattern ✔ on Nov 1 (visa officers). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -766,33 +811,35 @@
      "note": "chain right; necessary-vs-sufficient reason given this time"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 Harbor got no grant · 2 necessary, sufficient · 3 converse"
   },
   {
    "id": "C047",
    "track": "E",
-   "q": "A supply drop of 8% hits a market where buyers cut their quantity by 4% for every 10% price rise. By what percent must the price rise to clear the market? Does the price rise more or less than the quantity falls, and why? Name three things that make demand inelastic.",
+   "q": "Supply falls 8%; buyers cut quantity 4% per 10% price rise. 1) Price rise %? 2) Price rises more / less than quantity falls? 3) Three causes of inelastic demand (1–2 words each)?",
    "a": "Count steps: quantity to squeeze out ÷ squeeze per 10% price step: 8 ÷ 4 = 2 steps, so the price rises 20%. The price rises MORE than the quantity falls because buyers cut back little (demand is fairly inelastic). Rule: price rise = quantity to squeeze out ÷ squeeze per 10% × 10%. Sanity range: burgers (10% squeezed per step) → +10%; gasoline (1% per step) → +100%. Inelastic demand: a necessity, few substitutes, little time to adjust (short run). It is DEMAND that is inelastic, not the price. Picture: the price is a bouncer pushing buyers out the door, one step at a time. Links: C043, C042.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
    "last_tested": "2026-10-21",
    "next_due": "2026-10-26",
-   "history": "✘ then ✔ with the bouncer picture (Lesson #15); ✔ cold conf 2.8 Lesson #16 (still missing the reason the price rises more, and \"little time to adjust\" as the third cause). Box 2.",
+   "history": "✘ then ✔ with the bouncer picture (Lesson #15); ✔ cold conf 2.8 Lesson #16 (still missing the reason the price rises more, and \"little time to adjust\" as the third cause). Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 20% · 2 more · 3 necessity, few substitutes, short run"
   },
   {
    "id": "C048",
    "track": "GQ",
-   "q": "Is the product of two consecutive integers always, sometimes or never even? Is 7,482 divisible by 3? By 9? Give the prime factorization of 84. If n² is odd, must n be odd?",
+   "q": "1) Product of two consecutive integers: always / sometimes / never even? Reason (≤6 words)? 2) 7,482 divisible by 3? by 9? 3) Prime factorization of 84? 4) n² odd → n odd? y/n",
    "a": "Always even: one of the two is even, and even × anything is even. 7+4+8+2 = 21: divisible by 3 (21 ÷ 3), not by 9. 84 = 2² × 3 × 7 (84 → 12 × 7 → 4 × 3 × 7 → 2 × 2 × 3 × 7). Yes, n² odd → n odd, by the contrapositive: n even → n² even. Rules: even × anything = even; odd × odd = odd; odd + odd = even; test 3 and 9 by digit sum, 4 by the last two digits, 5 by a last digit of 0 or 5; 1 is not prime, 2 is the only even prime.",
    "box": 1,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "GQ1 check 3/3; ✔ with slips Lesson #16 (no digit-sum test; the exponent form of 84 not written, twice). Retest as the opening of GQ2 (Tue Nov 3).",
+   "history": "GQ1 check 3/3; ✔ with slips Lesson #16 (no digit-sum test; the exponent form of 84 not written, twice). Retest as the opening of GQ2 (Tue Nov 3). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-12",
@@ -808,19 +855,20 @@
      "note": "Parts 2-4 right (digit sum 21: /3 yes, /9 no; 2^2*3*7; contrapositive). Part 1 answer 'always' right but reason garbled ('multiplying by 2 or something reducible to 2'); correct reason: one of the two consecutive integers is even."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 always; one of them is even · 2 3 y, 9 n (digit sum 21) · 3 2² × 3 × 7 · 4 y"
   },
   {
    "id": "C049",
    "track": "L",
-   "q": "\"Commentators claim that suspending the gasoline tax for the summer will lower pump prices. That claim is mistaken. Refiners cannot expand output within a single summer, and drivers will keep buying about as much whatever the price. So sellers can raise their own price by the amount of the tax cut, and the pump price will barely move. Besides, the suspension would cost the treasury billions.\" What is the main conclusion, and why is \"Sellers will always raise their prices by the amount of any tax cut\" wrong?",
+   "q": "Gas-tax holiday argument (refiners can't expand; inelastic demand; 'pump price will barely move'; 'besides, it costs billions'). 1) Main conclusion with its hedge (≤10 words)? 2) Role of the treasury cost (1 word)? 3) 'Sellers will always raise prices by any tax cut' is which trap?",
    "a": "Main conclusion: suspending the tax will not noticeably lower pump prices (the rebuttal \"that claim is mistaken\", with the hedge \"barely\"). Refiners, inelastic demand and sellers pocketing the cut are support; the treasury cost is an aside (\"besides\"). \"Always\" and \"any tax cut\" overreach from a hedge: the author says sellers CAN raise their price in this case (trap type 2, C032). Links: C031 (rebuttal main point), C043, C055, E5 (tax incidence).",
    "box": 2,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
    "last_tested": "2026-11-10",
    "next_due": "2026-11-13",
-   "history": "conclusion without the hedge \"barely\" (Lessons #15, #16, three runs); the overreach named only after prompting. **Nov 2 (cold, unrated): ½** he took the rebuttal \"that claim is mistaken\" as the main conclusion ✔ but gave neither its content nor the hedge (\"barely\"), and did not explain why \"always\" overreaches. Box 1.",
+   "history": "conclusion without the hedge \"barely\" (Lessons #15, #16, three runs); the overreach named only after prompting. **Nov 2 (cold, unrated): ½** he took the rebuttal \"that claim is mistaken\" as the main conclusion ✔ but gave neither its content nor the hedge (\"barely\"), and did not explain why \"always\" overreaches. Box 1. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-04",
@@ -836,33 +884,35 @@
      "note": "Nov 10: conclusion with hedge ok; 'always' wrong via 'barely' (some movement); missing the key word 'can' = author claims possibility in this case, not a law; said demand somewhat elastic, text says inelastic"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 suspending the tax won't noticeably lower pump prices · 2 aside · 3 overreach from a hedge"
   },
   {
    "id": "C050",
    "track": "P",
-   "q": "What is Glaucon's ring (of Gyges) argument in *Republic* II, and what does it claim about why people are just? What does he ask Socrates to prove?",
+   "q": "Glaucon's ring of Gyges. 1) What would the just man do with the ring (≤5 words)? 2) Why people are just, on his view (≤5 words)? 3) Socrates must show justice is good ___ and ___?",
    "a": "Give a just man and an unjust man a ring that makes them invisible, so neither can be caught or blamed: the just man would act exactly like the unjust one. So nobody is just willingly; people are just from fear of punishment or loss of reputation (justice as medicine for the person: put up with for its results). The challenge: show that justice is good in itself AND for its results, even for a man with the worst reputation and no reward (a SUFFICIENCY claim: justice alone is enough for a good life; L16 link). Links: Athens' premise in the Melian Dialogue (C034, C033). Glaucon's step is a contrapositive: if people valued justice for itself, the ring would not change their behavior.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-01",
    "next_due": "2026-11-04",
-   "history": "seeded by the Lesson #16 pretest (his consequentialist answer, then the one-purse point). **Nov 1 (cold, conf 2.6): ✔.** Justice as medicine ✔; \"get away with it\" ✔; the challenge ✔ in substance. Corrections: the medicine is for the person (avoid punishment, keep reputation), not for society; \"even with the worst reputation\" and \"good in itself AND for results\" not stated. Box 2.",
+   "history": "seeded by the Lesson #16 pretest (his consequentialist answer, then the one-purse point). **Nov 1 (cold, conf 2.6): ✔.** Justice as medicine ✔; \"get away with it\" ✔; the challenge ✔ in substance. Corrections: the medicine is for the person (avoid punishment, keep reputation), not for society; \"even with the worst reputation\" and \"good in itself AND for results\" not stated. Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 act like the unjust man · 2 fear of punishment/reputation · 3 in itself, for its results"
   },
   {
    "id": "C051",
    "track": "P",
-   "q": "Name Glaucon's three kinds of goods and where he wants justice placed; then give Socrates' reply in one idea (the three parts of the soul) and say why the ring cannot touch it. What is the strongest objection (the psychopath)?",
+   "q": "1) Glaucon's three kinds of goods (one example each)? 2) Where he wants justice placed (1, 2 or 3)? 3) Socrates' reply in 3 words? 4) Strongest objection (2 words)?",
    "a": "Three kinds: (1) wanted for itself (joy); (2) wanted only for results (medicine); (3) both (health, knowledge). Glaucon wants justice in kind 3. Socrates: justice is the soul's health: reason rules, spirit (courage, honour) backs reason, appetite obeys; the unjust man is ruled by whichever desire shouts loudest (tyrannized from inside, unfree), so injustice is a disease even if never discovered. The ring protects against being caught, not against a diseased soul. Objection (his): a calm psychopath with no sense of justice looks like a counterexample, since the \"sick\" soul feels fine; Plato must stipulate what health is (the soul's structure, not its feelings).",
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "seeded by the Lesson #16 check ✔; explain-back ½ (two parts of the soul, not three; \"even if no one finds out\" missing).",
+   "history": "seeded by the Lesson #16 check ✔; explain-back ½ (two parts of the soul, not three; \"even if no one finds out\" missing). 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -886,19 +936,20 @@
      "note": "Nov 17: three kinds ok; said Glaucon wants justice only in kind 2 (he wants it defended in kind 3; kind 2 is the popular view he voices); Socrates reply given as 'ruled by desire, tyrannized' with no three parts / soul health; ring point ok ('not fulfilling regardless of the ring')"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 for itself (joy), for results (medicine), both (health) · 2 3 · 3 justice = soul's health · 4 calm psychopath"
   },
   {
    "id": "C052",
    "track": "WR",
-   "q": "On the GRE Analyze an Issue task, what separates a 4 from a 6, and what should a thesis for \"discuss the extent to which you agree or disagree\" look like?",
+   "q": "GRE Issue. 1) A 4 has (≤4 words)? 2) Three things a 6 adds (2–4 words each)? 3) Thesis shape (fill: X, because ___, except when ___)? 4) A pure yes/no on an 'extent' prompt scores at most?",
    "a": "A 4: a clear position, generic examples. A 6: a QUALIFIED position in one sentence (\"X, because Y, except when Z\"), specific named examples (events, policies, texts), the strongest counterargument answered, one pass of organization (thesis → reason 1 → reason 2 → counterargument → conclusion), and precise varied language. The instruction line changes the job: \"extent\" means a pure yes/no is a 4 at best. Test every example: does it support the point you use it for? (a reward is not a threat; checks and balances are not punishment.)",
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more. 2026-11-06: 2026-11-06 essay (handwritten, untimed): thesis ~95 words, third time too long; model in C065",
+   "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more. 2026-11-06: 2026-11-06 essay (handwritten, untimed): thesis ~95 words, third time too long; model in C065 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-10",
@@ -914,33 +965,35 @@
      "note": "Qualified thesis X because Y except Z right; no named examples, no strongest counterargument answered."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 clear position, generic examples · 2 qualified thesis, named examples, strongest counterargument answered · 3 Y, Z · 4 4"
   },
   {
    "id": "C053",
    "track": "L",
-   "q": "In \"Fare-free weekends raised transit ridership by 30 percent, so fewer cars came downtown\", which clause is the conclusion, and where does the gap in a necessary-assumption item usually sit? Why is \"the weekends caused the 30 percent rise\" a trap?",
+   "q": "\"Ridership rose 30%, so fewer cars came downtown.\" 1) Conclusion clause? 2) Where the gap sits (≤6 words)? 3) 'The weekends caused the rise' is a trap because it (1–2 words)?",
    "a": "The conclusion follows \"so\" (fewer cars came downtown); the clause before it is the evidence (premise). The gap is the step from the evidence to the conclusion: the new riders might never have driven (walkers, new trips), so the necessary assumption is that at least some of them would otherwise have driven downtown. \"The weekends caused the rise\" restates the premise: negating it contradicts the premise and does not break the conclusion. Habit: underline the indicator (\"so\", \"thus\", \"therefore\", \"hence\"), write the conclusion, then ask what step connects the premise to it. Links: C028, C038.",
    "box": 2,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
    "last_tested": "2026-11-01",
    "next_due": "2026-11-04",
-   "history": "seeded by the C038 miss (premise named as the conclusion twice). **Nov 1 (cold, with C038, conf 2.7): ✔** the conclusion as the clause after \"so\" (he folded the cause \"fare-free weekends caused…\" into it) and the gap. Box 2.",
+   "history": "seeded by the C038 miss (premise named as the conclusion twice). **Nov 1 (cold, with C038, conf 2.7): ✔** the conclusion as the clause after \"so\" (he folded the cause \"fare-free weekends caused…\" into it) and the gap. Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 fewer cars came downtown · 2 between evidence and conclusion · 3 restates the premise"
   },
   {
    "id": "C054",
    "track": "L",
-   "q": "\"Everyone agrees that a government should not spend money on projects whose benefits go mainly to people who are already wealthy. The proposed Harbor Tunnel would be paid for entirely out of public funds. Thus, the government should not build the Harbor Tunnel.\" What is the conclusion, what is the gap (a term shift), and what is the necessary assumption? Why is \"the tunnel would be paid for entirely out of public funds\" a trap?",
+   "q": "Harbor Tunnel: rule about who BENEFITS; evidence about public funding. 1) Conclusion (≤6 words)? 2) The term shift (2 words → 2 words)? 3) Necessary assumption (≤8 words)? 4) 'Paid entirely from public funds' is which trap?",
    "a": "Conclusion: the government should not build the Harbor Tunnel (the clause after \"Thus\"). Gap: the rule is about who BENEFITS; the evidence is about who PAYS. Necessary assumption: the tunnel's benefits would go mainly to people who are already wealthy. Negation: the benefits would not go mainly to the wealthy, so the rule does not apply and the conclusion collapses. \"Paid entirely out of public funds\" restates the premise (trap type 4). Look for a term in the conclusion or the rule that the premises never mention.",
    "box": 2,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
    "last_tested": "2026-11-03",
    "next_due": "2026-11-06",
-   "history": "seeded by the TL1 Q1 ✔ (conclusion, assumption, \"public funds\" called a red herring; about 75 seconds). Original item.",
+   "history": "seeded by the TL1 Q1 ✔ (conclusion, assumption, \"public funds\" called a red herring; about 75 seconds). Original item. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-03",
@@ -950,33 +1003,35 @@
      "note": "conclusion (first said the assumption, self-corrected), assumption right; gap stated as a question, pays vs benefits term shift not named"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 don't build the tunnel · 2 who benefits → who pays · 3 benefits go mainly to the wealthy · 4 restates a premise"
   },
   {
    "id": "C055",
    "track": "L",
-   "q": "\"Some analysts argue that raising the retirement age will inevitably hurt manual workers. But a higher retirement age could be paired with a partial early-pension option that protects them while still saving the pension fund money. So a higher retirement age need not hurt manual workers.\" What is the main conclusion, and why is \"Raising the retirement age will not hurt manual workers\" wrong?",
+   "q": "Retirement age: analysts say it will 'inevitably hurt' manual workers; author: a partial early pension could protect them. 1) Main conclusion with its hedge? 2) 'Will not hurt manual workers' is which trap?",
    "a": "Main conclusion: a higher retirement age need not hurt manual workers (the rebuttal of the analysts, with the hedge \"need not\"). The early-pension option is the reason; \"inevitably hurt\" is the opposing view that the author answers. \"Will not hurt\" overreaches from the hedge \"need not\": the author says it can be avoided with the option, not that it will not happen (trap type 2, C032). Copy the conclusion clause with its hedge. Links: C031, C049.",
    "box": 2,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
    "last_tested": "2026-11-02",
    "next_due": "2026-11-05",
-   "history": "seeded by TL1 Q2: picked E ✔ at about 75 seconds and rejected C as an overstatement, but his written conclusion said \"will not hurt\" (the hedge dropped for the fourth time after C031 and C049). Original item. **Nov 2 (cold, conf 3): ✔** he copied \"higher retirement age need not hurt manual workers\" exactly: the first time the hedge survived. Box 2.",
+   "history": "seeded by TL1 Q2: picked E ✔ at about 75 seconds and rejected C as an overstatement, but his written conclusion said \"will not hurt\" (the hedge dropped for the fourth time after C031 and C049). Original item. **Nov 2 (cold, conf 3): ✔** he copied \"higher retirement age need not hurt manual workers\" exactly: the first time the hedge survived. Box 2. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 a higher age need not hurt manual workers · 2 overreach from a hedge"
   },
   {
    "id": "C056",
    "track": "L",
-   "q": "\"Among first-year students who joined the mentoring program, 9 percent dropped out; among those who did not, 14 percent did. The dean concludes the program reduces first-year dropout.\" State the conclusion (with its direction), the gap, the necessary assumption, and what happens when you negate it. Which choice is the restated premise, and what does ITS negation do?",
+   "q": "Mentoring: joiners 9% dropout vs 14% for others; dean: the program works. 1) Gap (1–2 words)? 2) Necessary assumption (≤10 words)? 3) The restated premise's negation: (a) breaks the conclusion (b) only contradicts a premise? 4) Opposite of 'fewer'?",
    "a": "Conclusion: the program reduces dropout. Gap: self-selection; the students who joined may have been less likely to drop out anyway (more conscientious). Necessary assumption: the joiners were not already less likely to drop out than the non-joiners. Negation: they were already less likely, so the gap between 9 and 14 is not the program's work and the conclusion collapses. Restated premise: \"fewer joiners dropped out than non-joiners\"; its negation (\"not fewer\": the same or more) contradicts the premise but does not touch the conclusion. The opposite of \"fewer\" is \"not fewer\", not just \"more\" (C026).",
    "box": 1,
    "warn": 0,
    "created": "2026-11-01 (Lesson #17)",
    "last_tested": "2026-11-16",
    "next_due": "2026-11-17",
-   "history": "seeded by the Lesson #17 check ✔ A at 2.7 (his written conclusion reversed the direction: \"caused kids to drop out\", a dictation slip) and the follow-up ✔ (A negated breaks the argument; C is the restated premise; the \"more\" vs. \"not fewer\" nuance). Original item.",
+   "history": "seeded by the Lesson #17 check ✔ A at 2.7 (his written conclusion reversed the direction: \"caused kids to drop out\", a dictation slip) and the follow-up ✔ (A negated breaks the argument; C is the restated premise; the \"more\" vs. \"not fewer\" nuance). Original item. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-04",
@@ -992,19 +1047,20 @@
      "note": "Nov 16: conclusion, gap, counterfactual assumption, restated premise all right; negation of the restated premise said to contradict the 'argument', not just the premise"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 self-selection · 2 joiners weren't already less likely to drop out · 3 b · 4 not fewer"
   },
   {
    "id": "C057",
    "track": "L",
-   "q": "What is a sufficient assumption, and how do you find it? Apply it: \"Anyone who completes the safety course is assigned to the night shift. Priya has worked here for three years. Therefore, Priya will be assigned to the night shift.\" What must you add? Why does \"too strong\" stop being a flaw on these items?",
+   "q": "\"Course → night shift. Priya has worked here 3 years. So Priya gets the night shift.\" 1) Add what (an arrow)? 2) Is a too-strong rule a flaw on these items? y/n 3) Two real traps (1 word each)?",
    "a": "A sufficient assumption is ENOUGH: added to the premises, the conclusion MUST follow with no gap left. Method: write the conclusion; find the term the premises never connect (the course is never tied to three years); the answer is the arrow that joins them in the right direction. Chain: worked 3 years → completed the course → night shift; add \"anyone who has worked over a year completes the course\" (or \"Priya completed the course\"). River picture: the premises leave you on one bank, the rule is one stepping stone, the bridge is the missing stone (the chain rule, C023). A sweeping rule is fine if it delivers; the traps are the converse/inverse and answers that are only necessary. Links: C028 (necessary), C030, C058.",
    "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
    "last_tested": "2026-11-16",
    "next_due": "2026-11-19",
-   "history": "seeded by the Lesson #18 pretest ✔ conf 3 (his own bridge: \"anyone who has worked over a year completes the safety course\"). Original item. His own words for the contrast: sufficient = the bridge to the other bank; necessary = the keystone that, if removed, breaks the argument.",
+   "history": "seeded by the Lesson #18 pretest ✔ conf 3 (his own bridge: \"anyone who has worked over a year completes the safety course\"). Original item. His own words for the contrast: sufficient = the bridge to the other bank; necessary = the keystone that, if removed, breaks the argument. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-06",
@@ -1025,19 +1081,20 @@
      "note": "Nov 16 regrade after pushback: his addition (worked over a year -> night shift) is a valid sufficient assumption and answered what was asked; the LSAT answer would join course and years worked, which he knows (Nov 2 pretest)"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 worked 3 years → completed course (or 'Priya completed it') · 2 n · 3 converse/inverse, merely necessary"
   },
   {
    "id": "C058",
    "track": "L",
-   "q": "\"Every report the ambassador signs goes to the Secretary. This cable is a report the ambassador drafted. So this cable will go to the Secretary.\" Which bridge works: (i) every report she drafts, she signs; (ii) every report she signs, she drafts; (iii) any report she does not sign does not go to the Secretary? Then: \"no document negotiated on the public's behalf should stay secret unless publishing it would harm national security.\" Write the rule as an arrow and say which assumption makes \"publish the agreement\" follow.",
+   "q": "Signs → goes to the Secretary; the cable is a report she drafted. 1) Bridge: (i) drafts → signs (ii) signs → drafts (iii) not signed → not sent? 2) Names of the other two? 3) Water rule 'secret → harms security': which assumption makes 'publish' follow (≤5 words)?",
    "a": "(i): it links the cable's term (drafted) to the rule's trigger (signed): drafted → signed → goes to the Secretary. (ii) is the converse (signing implies drafting; says nothing about drafting); (iii) is the inverse of the rule (speaks only about unsigned reports). Water agreement: secret → harm to national security; contrapositive: no harm → not secret. The sufficient assumption: publishing the agreement would not harm national security (it fires the contrapositive). The converse (if harm, keep it secret) can't deliver the conclusion.",
    "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
    "last_tested": "2026-11-06",
    "next_due": "2026-11-09",
-   "history": "seeded by the Lesson #18 check ✔ (i, with the gap in his own words; (ii) named as the converse) and the water-agreement item ✔ A (conclusion and gap ✔; E explained as the wrong direction). Original items. Links: C030, C021, C033 (\"unless\"), C057.",
+   "history": "seeded by the Lesson #18 check ✔ (i, with the gap in his own words; (ii) named as the converse) and the water-agreement item ✔ A (conclusion and gap ✔; E explained as the wrong direction). Original items. Links: C030, C021, C033 (\"unless\"), C057. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-06",
@@ -1046,19 +1103,20 @@
      "note": "bridge (i) right; why (ii)/(iii) fail not given"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 i · 2 ii converse, iii inverse · 3 publishing would not harm security"
   },
   {
    "id": "C059",
    "track": "GV",
-   "q": "What is your method for a two-blank text completion item? Apply it: \"Although the minister's critics dismissed his proposal as (i)____, even they conceded that its central analysis of the budget gap was (ii)____.\" (i) fatuous / trenchant / exigent; (ii) trenchant / spurious / perfidious. How can a fatuous proposal contain a trenchant analysis?",
+   "q": "\"Although critics dismissed the proposal as (i)___, even they conceded its budget analysis was (ii)___.\" 1) (i) fatuous / trenchant / exigent 2) (ii) trenchant / spurious / perfidious 3) Which blank do you start with (1 word)?",
    "a": "Read the whole sentence and mark the signal words (\"although… even they conceded\" = contrast); start with the easier blank and predict your own word; do the other blank; the two blanks must make ONE sentence; a choice that fits one blank only is the trap. (i) fatuous (silly, pointless), (ii) trenchant (sharp, incisive). \"Fatuous\" is the CRITICS' verdict; the sentence turns on the concession: a sound diagnosis can come with a silly remedy. Always write the blank's word before looking at the choices (C045).",
    "box": 2,
    "warn": 0,
    "created": "2026-11-02 (Lesson #18)",
    "last_tested": "2026-11-06",
    "next_due": "2026-11-09",
-   "history": "seeded by GV2: 5/6 blanks first try; item 3(i) answered \"spurious\" (not a choice) and corrected to fatuous when asked. Original item.",
+   "history": "seeded by GV2: 5/6 blanks first try; item 3(i) answered \"spurious\" (not a choice) and corrected to fatuous when asked. Original item. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-06",
@@ -1067,7 +1125,8 @@
      "note": "fatuous/trenchant right; own-word prediction not shown"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 fatuous · 2 trenchant · 3 easier"
   },
   {
    "id": "V001",
@@ -1542,12 +1601,12 @@
    "track": "E",
    "box": 1,
    "warn": 0,
-   "q": "A town's grain sells 100 sacks at 10 coins. A ceiling of 6 cuts supply to 60 sacks while buyers want 140. Name the 80-sack gap, the 40 lost trades, and say what deadweight loss is.",
+   "q": "Grain sells 100 sacks at 10; a ceiling of 6 → supply 60, demand 140. 1) The 80-sack gap is a? 2) Lost trades (number)? 3) New buyers (number)? 4) Deadweight loss = (a) the lost trades (b) the shortage (c) the gains lost on the lost trades?",
    "a": "The 80-sack gap is a shortage (a paucity at the capped price): 140 wanted minus 60 supplied. It splits into 40 sacks that used to trade (100 to 60, the lost trades) plus 40 from new buyers the low price pulled in. Deadweight loss is the surplus (gains, in coins) from the lost trades: farmer and buyer would both have gained and no longer trade. A ceiling below equilibrium makes a shortage; a floor above it makes a surplus (a plethora).",
    "created": "2026-11-03 (Lesson #19)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-10",
@@ -1563,19 +1622,20 @@
      "note": "Gap = shortage ok; called the 40 lost trades 'deadweight loss' (3rd time conflating); no 40 new buyers; DWL = lost trades, not the surplus on them; blamed a 'shift' not the ceiling."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 shortage · 2 40 · 3 40 · 4 c"
   },
   {
    "id": "C061",
    "track": "E",
    "box": 1,
    "warn": 0,
-   "q": "Who bears most of a tax, and does it matter who legally pays it? How does elasticity change the deadweight loss?",
+   "q": "1) Who bears most of a tax: more / less elastic side? 2) Does the legal payer matter? y/n 3) Inelastic buyers → deadweight loss: small / large?",
    "a": "The less elastic side (the one that cannot easily walk away) bears more of the tax; it does not matter who legally pays, since a tax on sellers and a tax on buyers split the cost the same way. If buyers are inelastic they keep buying, few trades vanish and the deadweight loss is small. If buyers can switch (rice), many trades vanish and the deadweight loss is large.",
    "created": "2026-11-03 (Lesson #19)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-10",
@@ -1590,7 +1650,8 @@
      "note": "Less elastic bears more + legal payer irrelevant right; DWL direction not stated again (garbled: 'increases deadweight loss'); inelastic = few trades vanish = small DWL."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 less elastic · 2 n · 3 small"
   },
   {
    "id": "V024",
@@ -1647,12 +1708,12 @@
    "track": "L",
    "box": 1,
    "warn": 1,
-   "q": "Argument: 'Since bike lanes were painted on Harbor Street, shop sales fell 8%. Owners rightly blame the lanes. Removing them will restore sales.' What is the MAIN conclusion, and which necessary assumption states the gap in general form? Why is 'sales on other streets did not fall similarly' not necessary?",
+   "q": "Bike lanes painted, sales fell 8%; owners blame the lanes; removing them will restore sales. 1) Main conclusion? 2) General gap (≤10 words)? 3) Is 'other streets did not fall similarly' necessary? y/n",
    "a": "Main conclusion: removing the lanes will restore sales (the lanes-caused-it claim is the intermediate step). General gap: the decline is not due to a cause that would remain in place after removal (a recession is one instance). Negate it: a persisting cause means removal won't restore, so the conclusion fails. 'Other streets did not fall' is a specific no-confounder answer: its negation (they fell similarly) does not break the argument, since the lanes could still be one cause. Prephrase the GENERAL gap, then pick the choice that states it; do not pick the answer matching your first guess.",
    "created": "2026-11-04 (Lesson #20)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "2026-11-17: Nov 17 retest (new bridge item): main conclusion and intermediate conclusion both right when asked cold on a fresh argument; gap stated as 'something else didn't cause the fall' (ok in general form)",
+   "history": "2026-11-17: Nov 17 retest (new bridge item): main conclusion and intermediate conclusion both right when asked cold on a fresh argument; gap stated as 'something else didn't cause the fall' (ok in general form) 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-16",
@@ -1674,19 +1735,20 @@
      "note": "Fresh Elm St meters item: main conclusion right cold; gap as 'not another reason, like cold weather' (general enough; did not say 'a cause that would persist after removal'). Other-streets part not asked."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 removing the lanes will restore sales · 2 decline not due to a cause that stays after removal · 3 n"
   },
   {
    "id": "C063",
    "track": "P",
    "box": 1,
    "warn": 0,
-   "q": "Aristotle, Politics: what two questions sort the six regimes, which are the sound and deviant forms of rule by one, few and many, and why is his 'democracy' a deviation?",
+   "q": "Aristotle's six regimes. 1) Two sorting questions (2–3 words each)? 2) Sound / deviant for one, few, many? 3) Which matters more: number / interest? 4) Most stable regime leans on (2 words)?",
    "a": "Questions: how many rule, and in whose interest (common advantage vs the rulers' own). One: kingship (sound) / tyranny. Few: aristocracy / oligarchy. Many: polity / democracy. Democracy is the poor majority ruling for itself, oligarchy the rich few ruling for themselves: both are class rule. Interest matters more than number. The most stable regime mixes the two and leans on a large middle class (the mean). Link: Athens at Melos ruled in its own interest (C034).",
    "created": "2026-11-04 (Lesson #20)",
    "last_tested": "2026-11-16",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-16",
@@ -1696,19 +1758,20 @@
      "note": "Nov 16: all six regimes right (said plurality for polity); who rules and in whose interest right; unsure only on names"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 how many rule; in whose interest · 2 kingship/tyranny, aristocracy/oligarchy, polity/democracy · 3 interest · 4 middle class"
   },
   {
    "id": "C064",
    "track": "WR",
    "box": 1,
    "warn": 0,
-   "q": "Write the shape of a 6-level thesis in one sentence, and what must the 'except when' clause do? Test it on: 'Leaders should follow their own judgment rather than popular opinion.'",
+   "q": "1) 6-level thesis shape (fill: claim, because ___, except when ___)? 2) Max words? 3) The except-when must name a case where (a) the main claim is strongest (b) the opposing view wins?",
    "a": "[Claim], because [reason], except when [limit]; one sentence, 40 words or fewer, ONE position. The except-when must name a case where the OPPOSING view wins (e.g. leader's judgment unchecked or untrustworthy; a question that is the people's own to decide, like their rights or consent). It must not repeat or support the main claim (the nuclear-retaliation case does). Then test each example: does it support the point it is used for? (Mao's Cultural Revolution was leader-driven; Burke's Bristol speech fits the trustee view.)",
    "created": "2026-11-04 (Lesson #20)",
    "last_tested": "2026-11-16",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-16",
@@ -1717,7 +1780,8 @@
      "note": "Nov 16: right idea (except-when names a case where the opposing view wins), but two sentences, ~48 words, claim restated, no 'because'; shape not stated"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 reason, limit · 2 40 · 3 b"
   },
   {
    "id": "V026",
@@ -1774,12 +1838,12 @@
    "track": "WR",
    "box": 1,
    "warn": 0,
-   "q": "Write a GRE Issue thesis in one sentence of 40 words or fewer. What shape does it take, and what must the 'except when' do? (Nov 6 prompt: governments and future generations)",
+   "q": "1) Thesis: how many sentences and max words? 2) Must the except-when (a) limit or (b) support the claim? 3) The sharp idea on future generations (≤5 words)?",
    "a": "Shape: claim, because reason, except when limit, in one breath, one position. The 'except when' must LIMIT the claim (a real exception), not support it. Model (38 words): Governments should put future generations' interests ahead of citizens' present wishes only when citizens consent, because the will of the unborn cannot be known, except when an irreversible existential threat looms that citizens ignore or do not understand. The sharp idea: who decides (through consent, not over it).",
    "created": "2026-11-06 (Lesson #21)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-17",
@@ -1788,19 +1852,20 @@
      "note": "Nov 17: shape + except-when right (limits the claim, existential threat, consent), but ~130 words over several sentences, not one sentence <=40 words (3rd half on form)"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 1, 40 · 2 a · 3 through consent, not over it"
   },
   {
    "id": "C066",
    "track": "WR",
    "box": 1,
    "warn": 0,
-   "q": "A prompt says governments should put X AHEAD OF Y. Why is 'if governments did it always, no citizen would ever be served' a weak line of attack, and what is the better move? Also: how do you test each example?",
+   "q": "Prompt: put X AHEAD OF Y. 1) 'If they always did it, no one would be served' attacks which reading (1 word)? 2) Better move (≤6 words)? 3) Example test (≤8 words)?",
    "a": "It refutes an extreme reading ('always') nobody asked about; the prompt only says 'ahead of' when they conflict. Answer the claim as stated, in its moderate form, and take a position on WHEN. Test every example: does it support the point you use it for? (Soviet utopia/Holodomor shows ideology plus dictatorship, not future-focus as such; global warming is a case for government action, so the 'except when' needs one line on why it does not swallow the rule.) Also keep the essay consistent: if future-focus is 'incompatible with democracy', do not later propose persuading citizens to act for their grandchildren.",
    "created": "2026-11-06 (Lesson #21)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-17",
@@ -1809,19 +1874,20 @@
      "note": "Nov 17: weak attack ok ('ahead of' not 'never'); better move said as 'qualify your claim' (answer the moderate claim and take a position on WHEN); example test said as 'supports or breaks the counter' (not: does it support the point you use it for / double-edged)"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 always/extreme · 2 take a position on WHEN · 3 does it support the point you use it for?"
   },
   {
    "id": "C067",
    "track": "P",
    "box": 1,
    "warn": 0,
-   "q": "Why can't a democratic government easily act for future generations, and what is the sharpest way to state when it still may? (Consent and the unborn)",
+   "q": "Democracy and the unborn. 1) Why it's hard (≤8 words)? 2) Act for the future ___ consent, not ___ it? 3) Possible exception (≤5 words)?",
    "a": "Democratic legitimacy rests on the will of the living; the will of people not yet born cannot be known, so any claim to speak for them risks being a ruler's own agenda in disguise (the Soviet claim to a future utopia). So: act for the future THROUGH citizens' consent (persuade them: the world your grandchildren live in), not OVER it. Possible exception: an irreversible existential threat citizens ignore or do not understand. Links: Burke, Hobbes, Rousseau's general will, the Melian Dialogue (C034).",
    "created": "2026-11-06 (Lesson #21)",
    "last_tested": "2026-11-17",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-17",
@@ -1831,19 +1897,20 @@
      "note": "Nov 17: existential-threat exception ok; reason given as 'cannot represent themselves by election' (not: their will cannot be known, so speaking for them can be a ruler's agenda); 'through consent, not over it' not stated in this answer"
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 the will of the unborn can't be known · 2 through, over · 3 irreversible existential threat"
   },
   {
    "id": "C068",
    "track": "L",
    "box": 2,
    "warn": 0,
-   "q": "How do you find the main conclusion and label roles in an argument? Apply it: A critic says X is a waste because the count was low; the author says the count was taken in exam week so it cannot show X is a waste, and so the council should wait for a normal month. What is the main conclusion, what is the role of the count cannot show X is a waste, and what is a concession?",
+   "q": "Critic: X is a waste (low count). Author: count was taken in exam week, so it can't show X is a waste, so the council should wait. 1) Main conclusion? 2) Role of 'it can't show X is a waste': C / I / P / O? 3) Can a concession be the conclusion? y/n",
    "a": "Label each sentence C (main conclusion), I (intermediate conclusion: supported, and supports another), P (premise), O (opposing view or concession). Main conclusion = the sentence everything else is a reason for (here: the council should wait). The count-cannot-show sentence is an INTERMEDIATE conclusion (exam week supports it, it supports wait). A reported view (Some say X) belongs to the speaker, not the author; the author's This is mistaken is the conclusion, with the author's hedge (not always). A concession (of course, granted) limits the claim, is never the conclusion, and is answered by the but after it. Nov 10: he picked the intermediate step as the main conclusion (not necessarily a waste).",
    "created": "2026-11-12 (Lesson #22)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-23",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-18",
@@ -1853,19 +1920,20 @@
      "note": "Main conclusion (council should wait) and test ('sentence all others support') right; role of count-cannot-show given as supporting the main conclusion, did not say it is itself supported by exam week (intermediate)."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 the council should wait · 2 I (intermediate) · 3 n"
   },
   {
    "id": "C069",
    "track": "E",
    "box": 2,
    "warn": 0,
-   "q": "Define stock and flow and say how they are linked. A country has debt of 30 trillion; the deficit fell from 1.5 to 1.0 trillion; a politician says we have cut the debt by a third. Right or wrong? A lake loses 1 million liters a month net; the town cuts the outflow by half a million: does it stop shrinking?",
+   "q": "1) Stock (≤4 words)? Flow (≤4 words)? 2) Debt 30T, deficit fell 1.5T → 1.0T: did the debt fall by a third? y/n What did it do? 3) Lake loses 1M L/month; outflow cut by 0.5M: still shrinking? y/n",
    "a": "Stock = an amount at one moment (a level you can photograph); flow = an amount PER UNIT OF TIME (a rate). A stock changes only through its flows: new = old + inflow - outflow, times the time elapsed. The deficit (flow) fell by a third, but the debt (stock) still rose by 1 trillion; debt falls only when the flow turns negative (a surplus). The lake still shrinks, at half the pace (-0.5 a month): cutting an outflow slows the loss, it does not reverse it. Nov 12: he gave stock = fixed amount and flow = moving money, without per unit of time or the link.",
    "created": "2026-11-12 (Lesson #22)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-23",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-18",
@@ -1874,19 +1942,20 @@
      "note": "Stock = snapshot, flow = rate; politician wrong because the deficit (flow) fell a third, not the debt (stock). Missing: debt still rose 1 trillion; falls only with a surplus."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 amount at a moment; amount per unit time · 2 n, rose by 1T · 3 y (half the pace)"
   },
   {
    "id": "C070",
    "track": "GV",
    "box": 1,
    "warn": 0,
-   "q": "GRE Sentence Equivalence: how many answers do you pick, what must be true of them, and what are the three traps?",
+   "q": "GRE Sentence Equivalence. 1) Pick how many of how many? 2) The two must ___ and ___? 3) The three traps (2–4 words each)?",
    "a": "Pick TWO of six; both must complete the sentence AND mean nearly the same (no partial credit). Method: predict your own word, then find its partner among the choices. Traps: (1) a word that fits the sentence loosely but has NO synonym partner (ostensible next to hollow/insincere); (2) a synonym pair that does not fit the sentence logic (an opposite pair, e.g. trenchant vs fatuous/inane); (3) two words that both fit but differ in meaning. Nov 10: first read it as one answer per item; after re-explanation got 6/6.",
    "created": "2026-11-12 (Lesson #22)",
    "last_tested": "2026-11-18",
    "next_due": "2026-11-19",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [
     {
      "date": "2026-11-18",
@@ -1896,21 +1965,23 @@
      "note": "Pick 2 right; had to ask what the format is; thought it was 2 synonyms per blank; no traps given. Format: one blank, six choices, pick the two that fit AND match in meaning."
     }
    ],
-   "status": "active"
+   "status": "active",
+   "key": "1 2 of 6 · 2 fit the sentence, mean the same · 3 fits but no partner; pair that doesn't fit; both fit but differ"
   },
   {
    "id": "C071",
    "track": "GQ",
    "box": 1,
    "warn": 0,
-   "q": "How do you find the GCD and LCM of 12 and 18 from prime factors? Give the check. What does n leaves remainder 4 when divided by 6 mean, and what remainder does n + 5 leave?",
+   "q": "1) GCD of 12 and 18? 2) LCM? 3) The check (≤5 words)? 4) n leaves remainder 4 on ÷6: remainder of n + 5?",
    "a": "12 = 2^2*3, 18 = 2*3^2. GCD = lowest power of each SHARED prime = 2*3 = 6 (biggest square tile for a 12x18 floor). LCM = highest power of EVERY prime = 2^2*3^2 = 36 (two lights flashing every 12 and 18 s meet at 36). Check: GCD*LCM = product (6*36 = 216 = 12*18). Remainder: n = 6k + 4 (k full cartons of 6 plus 4 loose eggs); n + 5 gives 9 loose = one more carton + 3, so remainder 3. Work with the remainder part only. QC: compute both columns before comparing (GCD of 36 and 60 = 12 vs LCM of 3 and 4 = 12: equal).",
    "created": "2026-11-12 (Lesson #22)",
    "last_tested": "",
    "next_due": "2026-11-13",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 6 · 2 36 · 3 GCD × LCM = product · 4 3"
   },
   {
    "id": "V028",
@@ -2009,56 +2080,60 @@
    "track": "L",
    "box": 1,
    "warn": 0,
-   "q": "A and B go together and an author concludes 'A causes B'. List the five other explanations the author must rule out, and say which one is the general gap on a causal necessary-assumption item. Why is regression to the mean a form of coincidence?",
+   "q": "A and B go together; the author says A causes B. 1) The four rivals to rule out (1–2 words each)? 2) Regression to the mean is a form of which rival? 3) General gap (≤6 words)?",
    "a": "Five explanations: (1) A causes B (the claim); (2) reverse: B causes A; (3) common cause: C causes both; (4) reporting/measurement: the data is collected differently where A is present; (5) coincidence/chance: small or unrepresentative sample. A causal argument assumes 2-5 are false; weaken it by raising one, strengthen it by ruling one out. General gap: nothing else explains it / the cause is the one that was changed. Regression to the mean: a group picked for an extreme score (lowest 10 schools) tends to score closer to average next time by chance alone, so a rise after a program may be no effect of the program. Link: C062 (bike lanes), C068.",
    "created": "2026-11-16 (Lesson #23)",
    "last_tested": "",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 reverse, common cause, measurement, coincidence · 2 coincidence · 3 nothing else explains it"
   },
   {
    "id": "C073",
    "track": "L",
    "box": 1,
    "warn": 0,
-   "q": "Original item: the 10 lowest-scoring of 40 schools got a free-breakfast program; their reading scores rose 6 points; the superintendent says breakfast raised scores. Which kind of answer weakens it most, and why do these choices fail: (a) the other 30 schools were unchanged, (b) attendance rose, (c) the 10 schools stayed below the district average?",
+   "q": "10 lowest schools got breakfast; scores rose 6. 1) Best weakener type (≤4 words)? 2) 'Other 30 unchanged': weakens / strengthens / irrelevant? 3) 'The 10 stayed below average': weakens / strengthens / irrelevant?",
    "a": "Best weakener: lowest-scoring schools typically score higher the next year whether or not anything changes (regression to the mean: the rise would have happened with no program). (a) strengthens (no general trend). (b) is mildly consistent, does not touch the cause. (c) is true but irrelevant to what caused the rise; to weaken you must offer another explanation for the same data. Nov 16: he picked the regression answer unprompted but skipped the conclusion line, sure/unsure and the tempter until asked.",
    "created": "2026-11-16 (Lesson #23)",
    "last_tested": "",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 regression to the mean · 2 strengthens · 3 irrelevant"
   },
   {
    "id": "C074",
    "track": "H",
    "box": 1,
    "warn": 0,
-   "q": "US treaties: who negotiates, who ratifies, by what vote, and what do presidents use to avoid that vote? Why is 'executive order' the wrong name for it?",
+   "q": "US treaties. 1) Who negotiates? 2) Who ratifies, by what vote? 3) What avoids that vote (2 kinds)? 4) Is that an 'executive order'? y/n",
    "a": "The President negotiates (and signs); the Senate alone ratifies, by two-thirds of senators present (the House has no role). To avoid that vote: executive agreements (made on presidential authority) or congressional-executive agreements (simple majority of both houses; NAFTA/USMCA). An executive order is a directive to the executive branch itself, not an international agreement. Nov 16: he said 'Congress' and 'executive orders'.",
    "created": "2026-11-16 (Lesson #23)",
    "last_tested": "",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 President · 2 Senate, 2/3 present · 3 executive agreements; congressional-executive agreements · 4 n"
   },
   {
    "id": "C075",
    "track": "GV",
    "box": 1,
    "warn": 0,
-   "q": "GRE Verbal: name four reversing signals (one hidden) and four continuing signals, and say what 'not merely critical but ___' tells you about the blank. Fill: 'Although the senator is usually ___ in public, her speech was strikingly blunt' (circumspect / bellicose / garrulous).",
+   "q": "1) Two reversing signals + one hidden one? 2) Two continuing signals? 3) 'Not merely critical but ___': the blank is (a) weaker (b) stronger? 4) 'Although usually ___ in public, her speech was blunt': circumspect / bellicose / garrulous?",
    "a": "Reversers: although, but, yet, despite, while, rather than; hidden: 'far from being ___', 'contrary to expectation'. Continuers: because, thus, moreover, indeed, 'not merely X but even Y' (the blank is a stronger version of X: not merely critical but derisive). Answer: circumspect (the opposite of blunt); bellicose is the trap if you ignore 'although'. Nov 16: GV4 4 of 5 answers; he used his own-word prediction (steps 2-3) successfully and skipped blank (i) of the reviewer item.",
    "created": "2026-11-16 (Lesson #23)",
    "last_tested": "",
    "next_due": "2026-11-17",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 although, but (yet/despite); hidden: far from · 2 because, thus (moreover/indeed) · 3 b · 4 circumspect"
   },
   {
    "id": "V031",
@@ -2116,42 +2191,45 @@
    "track": "E",
    "box": 1,
    "warn": 0,
-   "q": "Name the two feedback-loop types, the quick test for telling them apart, and what a delay does to a balancing loop. Give one example of each (bank run, thermostat, housing).",
+   "q": "1) The two loop types? 2) Ring test: count ___ arrows; even = ?, odd = ? 3) A delay in a balancing loop causes (≤3 words)? 4) Bank run / thermostat: which type each?",
    "a": "Reinforcing (R): a change feeds itself and runs away (bank run, compound interest). Balancing (B): a change triggers a response that pushes back toward a goal (thermostat, price). Test: trace the ring and count 'more -> less' (opposite) arrows: even (incl. zero) = reinforcing, odd = balancing. A delay in a balancing loop makes the response arrive late, so it overshoots and swings (boom and bust: housing built on today's rents, the shower tap, the Fed's lagged rate hikes). Dampen it by shortening the delay or showing the pipeline. Link: loops act on the flows into a stock (E6); in a loop A causes B and B causes A (L9).",
    "created": "2026-11-17 (Lesson #24)",
    "last_tested": "",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 reinforcing, balancing · 2 'more → less'; reinforcing, balancing · 3 overshoot, boom-bust · 4 R, B"
   },
   {
    "id": "C077",
    "track": "GQ",
    "box": 1,
    "warn": 0,
-   "q": "Give the five exponent rules via 'count the factors' (multiply, divide, zero, negative, power of a power), then do: (a) -3^2 vs (-3)^2, (b) 2^-1, (c) sqrt(75) and sqrt(48), (d) 16^(1/2).",
+   "q": "1) −3² = ? (−3)² = ? 2) 2⁻¹ = ? 3) √75 = ? √48 = ? 4) 16^(1/2) = ? 5) Does a negative exponent make a number negative? y/n",
    "a": "Multiply: add exponents (2^3*2^2 = five 2s = 2^5). Divide: subtract. Zero: a^0 = 1 (2^3/2^3). Negative: flip to the bottom, 2^-3 = 1/2^3; it NEVER makes the number negative. Power of a power: multiply exponents. (a) -3^2 = -(3^2) = -9 (the minus is x -1 outside); (-3)^2 = 9. (b) 2^-1 = 1/2. (c) Pairs picture: a root lets one of each PAIR of identical factors out front: 75 = 5*5*3 -> 5*sqrt(3); 48 = 4*4*3 -> 4*sqrt(3). Take the ROOT of the perfect square (sqrt16 = 4, not 16; sqrt25 = 5). (d) 16^(1/2) = sqrt16 = 4. Write every line on paper.",
    "created": "2026-11-17 (Lesson #24)",
    "last_tested": "",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 −9, 9 · 2 1/2 · 3 5√3, 4√3 · 4 4 · 5 n"
   },
   {
    "id": "C078",
    "track": "L",
    "box": 1,
    "warn": 0,
-   "q": "Parallel flaw drill: 'No hospital can qualify for the safety award without reporting every infection incident. Westbrook reports every incident. So Westbrook will qualify.' Name the flaw, and say how you tell it from a valid contrapositive and a valid 'only ... earn' argument in the choices.",
+   "q": "'No hospital qualifies without reporting every incident; Westbrook reports every incident; so it qualifies.' 1) Flaw: treats ___ as ___? 2) 'Only those who pass earn a star; Casa earned one, so it passed': valid / flawed? 3) 'Passing earns a star; Casa didn't earn one, so it didn't pass': valid / flawed?",
    "a": "Flaw: treats a NECESSARY condition (reports every incident) as SUFFICIENT. A parallel choice starts from the necessary condition being met ('kitchen passes every inspection') and concludes the result ('will earn a star'). Valid look-alikes: 'only restaurants that pass earn a star; Casa earned a star, so it passes' (starts from the result: valid); 'a restaurant that passes will earn a star; Casa did not, so it did not pass' (denies the result of a sufficient condition: valid contrapositive); a probabilistic ('usually ... probably') version. Read all five choices on Level 3-4 items.",
    "created": "2026-11-17 (Lesson #24)",
    "last_tested": "",
    "next_due": "2026-11-18",
-   "history": "",
+   "history": "2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 necessary, sufficient · 2 valid · 3 valid"
   },
   {
    "id": "V033",
@@ -2201,56 +2279,60 @@
    "track": "P",
    "box": 1,
    "warn": 0,
-   "q": "Machiavelli, The Prince ch. 17: state his claim WITH its hedge, his reason for distrusting love, and what a feared ruler must avoid.",
+   "q": "Machiavelli, ch. 17. 1) The claim with its hedge (≤12 words)? 2) Why love fails (≤6 words)? 3) What the feared ruler must avoid (1 word), and the two things he must not touch?",
    "a": "Both love and fear if possible; since they are hard to combine, it is much safer to be feared than loved IF one of the two has to be lacking (dropping the hedge misstates him). Reason: love is a link of obligation that men break whenever it pays them (self-interest, not passion); fear is a dread of punishment that never fails (it changes the payoff). Limit: avoid HATRED: the feared ruler must keep his hands off his subjects' property and women (men forget a father's death sooner than a lost inheritance).",
    "created": "2026-11-18 (Lesson #25)",
    "last_tested": "",
    "next_due": "2026-11-19",
-   "history": "Nov 18: pretest, check and explain-back all good; reason first given as irrationality of love, corrected to calculation/advantage.",
+   "history": "Nov 18: pretest, check and explain-back all good; reason first given as irrationality of love, corrected to calculation/advantage. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 safer to be feared than loved, if one must be lacking · 2 obligation broken when it pays · 3 hatred; property and women"
   },
   {
    "id": "C080",
    "track": "WR",
    "box": 1,
    "warn": 0,
-   "q": "A thesis says a leader may defy popularity to be effective, 'for the sake of the people'. The strongest counterargument is Stalin and Mao. What kind of limit ('except when ...') answers it, and what is the form and length of the thesis?",
+   "q": "Thesis 'defy popularity for the people'; counter: Stalin and Mao. 1) The limit must be (a) a restatement of 'for the people' (b) a test the dictators could not pass? 2) Example limit (≤8 words)? 3) Form: sentences, max words?",
    "a": "The limit must be a TEST the dictators could not pass, not a restatement of 'for the people': e.g. 'except when the decision cannot later face democratic scrutiny' (answerable afterwards to voters, courts, press). Form: ONE sentence, 40 words or fewer: claim, because reason, except when limit. Model (26 words): 'Leaders may rightly choose effectiveness over popularity, because support is only a means to carrying out policy, except when the decision cannot later face democratic scrutiny.' Count the words.",
    "created": "2026-11-18 (Lesson #25)",
    "last_tested": "",
    "next_due": "2026-11-19",
-   "history": "Nov 18: limit as a test came on the 2nd try (first try 'only for the sake of the people' = the dictator's own phrase); still two sentences, ~52 words, no count.",
+   "history": "Nov 18: limit as a test came on the 2nd try (first try 'only for the sake of the people' = the dictator's own phrase); still two sentences, ~52 words, no count. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 b · 2 except when it can't later face democratic scrutiny · 3 1, 40"
   },
   {
    "id": "C081",
    "track": "L",
    "box": 1,
    "warn": 0,
-   "q": "An author reports a view ('commentators claim X shows Y'), says 'this claim is mistaken', gives a premise, then a 'so' sentence. Which sentence is the main conclusion, how do you test it, and what do you check about the choices?",
+   "q": "Author reports 'X shows Y', says 'this claim is mistaken', gives a premise, then a 'so' sentence. 1) Main conclusion? 2) The 'so' sentence is usually the (1 word)? 3) Test (≤8 words)? 4) Two scope words to check?",
    "a": "The main conclusion is the negation of the reported view (X does not show Y): the author's own verdict. Test: which sentence are all the others reasons for? The 'so' sentence is usually the intermediate step (premise -> so-sentence -> verdict). Write the conclusion in your own words BEFORE reading the choices, then check scope words (alone, always, never): a choice can be too strong (a main-point choice that denies any evidence could ever show Y) or the intermediate step may be a near-twin.",
    "created": "2026-11-18 (Lesson #25)",
    "last_tested": "",
    "next_due": "2026-11-19",
-   "history": "Nov 18: picked the intermediate sentence (D) over the verdict (B) on the rent-cap item; pushed back on scope ('alone'); item wording of B and D was too close, no pattern credit.",
+   "history": "Nov 18: picked the intermediate sentence (D) over the verdict (B) on the rent-cap item; pushed back on scope ('alone'); item wording of B and D was too close, no pattern credit. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 X does not show Y · 2 intermediate · 3 which sentence are all others reasons for? · 4 alone, always (never)"
   },
   {
    "id": "C082",
    "track": "GV",
    "box": 1,
    "warn": 0,
-   "q": "GRE 'select ALL that apply' passage item: what is the first thing you do, and how do you judge each choice?",
+   "q": "GRE 'select ALL that apply'. 1) First thing you do (≤4 words)? 2) Partial credit? y/n 3) 'Too specific' is a reason to reject a stated choice? y/n",
    "a": "Read the instruction line first ('all that apply', 'select two', 'select the sentence'): it decides the whole item; there may be one correct answer or several, and no partial credit. Judge each choice on its own against the passage: supported (stated or follows) = pick; says MORE than the passage, contradicts it, or is only topic-related = leave. 'Too specific' is not a flaw if the passage states it directly.",
    "created": "2026-11-18 (Lesson #25)",
    "last_tested": "",
    "next_due": "2026-11-19",
-   "history": "Nov 18: picked only C of B+C on the ch. 17 item; said he had not read 'select all'.",
+   "history": "Nov 18: picked only C of B+C on the ch. 17 item; said he had not read 'select all'. 2026-11-18: rewritten as a quick-answer card (old question in archive).",
    "log": [],
-   "status": "active"
+   "status": "active",
+   "key": "1 read the instruction line · 2 n · 3 n"
   },
   {
    "id": "V035",

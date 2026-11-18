@@ -6,15 +6,15 @@ results with `grade`; the script applies the Leitner rules and the dates, so nob
 reads or rewrites the whole deck by hand.
 
 Commands (run from the repo root):
-  python3 srs.py due [--date D] [--max 8] [--vmax 3]   cards for today's recall slot
+  python3 srs.py due [--date D] [--max 12] [--vmax 3]   cards for today's recall slot
   python3 srs.py backlog [--date D]                    every due card, one line each
   python3 srs.py show C032 V019 ...                    full card(s), with history
   python3 srs.py grade C032 half unsure [--note "..."] [--lesson 19] [--format cloze]
         result: ok | half | miss      confidence: sure | unsure | 1-3 | -   (- = not given)
-  python3 srs.py add --track L --q "..." --a "..." [--note "..."] [--lesson 19]
+  python3 srs.py add --track L --q "1) ... 2) ..." --key "1 b · 2 40" --a "full answer" [--note "..."] [--lesson 19]
   python3 srs.py add-v --word onerous --meaning "..." --use "..." --confusable "..." --example "..." [--lesson 19]
   python3 srs.py note C032 "text"                      append a coaching note
-  python3 srs.py edit C032 --q "..." | --a "..."       replace a field
+  python3 srs.py edit C032 --q "..." | --a "..." | --key "..."       replace a field
   python3 srs.py stats                                 header counts for the lesson log
 
 Rules (same as the course has used since Oct 2026):
@@ -23,7 +23,7 @@ Rules (same as the course has used since Oct 2026):
   ⚠️ and kept in Box 1 until answered correctly twice. Correct in Box 5 -> retired.
   Intervals: Box 1 = next lesson day (next weekday), Box 2 = +3 days, Box 3 = +7, Box 4 = +16,
   Box 5 = +35; a due date on a weekend rolls to Monday.
-  Recall slot: at most 8 C cards (oldest due first; Box 1 first when more than 10 are due;
+  Recall slot: at most 12 quick-answer C cards (oldest due first; Box 1 first when more than 10 are due;
   at least 2 tracks) and at most 3 V cards (Box 1 first).
 """
 import argparse
@@ -163,6 +163,8 @@ def print_card(c, full=False):
             print(f'  Suggested format: {next_v_format(c)}')
     else:
         print(f'  Q: {c["q"]}')
+        if c.get("key"):
+            print(f'  Key: {c["key"]}')
         print(f'  A: {c["a"]}')
     notes = c.get("history", "")
     if full:
@@ -208,7 +210,9 @@ def cmd_due(a):
     pc = pick(cs, a.max, box1_first=len(cs) > 10, mix_tracks=True)
     pv = pick(vs, a.vmax, box1_first=True, mix_tracks=False)
     print(f"== {d.isoformat()} · {len(cs)} C cards due, showing {len(pc)} · "
-          f"{len(vs)} V cards due, showing {len(pv)} ==\n")
+          f"{len(vs)} V cards due, showing {len(pv)} ==")
+    print("Quick answers: send the numbered parts in one line, then s/u, e.g. '1 b 2 40 3 n s'. "
+          "Grade against Key; use A for the one-line correction.\n")
     for c in pc:
         print_card(c)
     if pv:
@@ -293,7 +297,7 @@ def cmd_add(a, v=False):
         c.update(word=a.word, meaning=a.meaning, use=a.use or "",
                  confusable=a.confusable or "", example=a.example or "")
     else:
-        c.update(q=a.q, a=a.a)
+        c.update(q=a.q, a=a.a, key=a.key)
     c.update(created=d.isoformat() + (f" (Lesson #{a.lesson})" if a.lesson else ""),
              last_tested="", next_due=next_lesson_day(d).isoformat(),
              history=a.note or "", log=[], status="active")
@@ -314,7 +318,7 @@ def cmd_note(a):
 def cmd_edit(a):
     deck, d = load(), today()
     c = find(deck, a.id)
-    for field in ("q", "a", "word", "meaning", "use", "confusable", "example"):
+    for field in ("q", "a", "key", "word", "meaning", "use", "confusable", "example"):
         val = getattr(a, field, None)
         if val is not None:
             c[field] = val
@@ -341,7 +345,7 @@ def cmd_stats(a):
 def main():
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     s = p.add_subparsers(dest="cmd", required=True)
-    x = s.add_parser("due"); x.add_argument("--date"); x.add_argument("--max", type=int, default=8)
+    x = s.add_parser("due"); x.add_argument("--date"); x.add_argument("--max", type=int, default=12)
     x.add_argument("--vmax", type=int, default=3); x.set_defaults(f=cmd_due)
     x = s.add_parser("backlog"); x.add_argument("--date"); x.set_defaults(f=cmd_backlog)
     x = s.add_parser("show"); x.add_argument("ids", nargs="+"); x.set_defaults(f=cmd_show)
@@ -349,7 +353,7 @@ def main():
     x.add_argument("conf", nargs="?"); x.add_argument("--note"); x.add_argument("--lesson", type=int)
     x.add_argument("--format"); x.add_argument("--date"); x.set_defaults(f=cmd_grade)
     x = s.add_parser("add"); x.add_argument("--track", required=True); x.add_argument("--q", required=True)
-    x.add_argument("--a", required=True); x.add_argument("--note"); x.add_argument("--lesson", type=int)
+    x.add_argument("--a", required=True); x.add_argument("--key", required=True); x.add_argument("--note"); x.add_argument("--lesson", type=int)
     x.add_argument("--date"); x.set_defaults(f=lambda a: cmd_add(a, False))
     x = s.add_parser("add-v"); x.add_argument("--word", required=True); x.add_argument("--meaning", required=True)
     x.add_argument("--use"); x.add_argument("--confusable"); x.add_argument("--example")
@@ -357,7 +361,7 @@ def main():
     x.set_defaults(f=lambda a: cmd_add(a, True))
     x = s.add_parser("note"); x.add_argument("id"); x.add_argument("text"); x.set_defaults(f=cmd_note)
     x = s.add_parser("edit"); x.add_argument("id")
-    for field in ("q", "a", "word", "meaning", "use", "confusable", "example"):
+    for field in ("q", "a", "key", "word", "meaning", "use", "confusable", "example"):
         x.add_argument(f"--{field}")
     x.set_defaults(f=cmd_edit)
     x = s.add_parser("stats"); x.add_argument("--date"); x.set_defaults(f=cmd_stats)
