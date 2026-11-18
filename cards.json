@@ -1,8 +1,8 @@
 {
  "meta": {
-  "next_c": 79,
-  "next_v": 35,
-  "updated": "2026-11-17",
+  "next_c": 83,
+  "next_v": 37,
+  "updated": "2026-11-18",
   "migrated_from": "claude/03-review-cards.md + V cards of claude/05-vocab.md (2026-11-02)"
  },
  "cards": [
@@ -790,8 +790,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-20 (Lesson #15)",
-   "last_tested": "2026-11-12",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "GQ1 check 3/3; ✔ with slips Lesson #16 (no digit-sum test; the exponent form of 84 not written, twice). Retest as the opening of GQ2 (Tue Nov 3).",
    "log": [
     {
@@ -799,6 +799,13 @@
      "result": "½",
      "lesson": 22,
      "note": "Nov 12 retest: parts 1-3 ok (always even; /3 yes, /9 no; 2^2*3*7 in exponent form); part 4 (n^2 odd -> n odd, contrapositive) skipped twice; digit sum not shown"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "conf": "sure",
+     "note": "Parts 2-4 right (digit sum 21: /3 yes, /9 no; 2^2*3*7; contrapositive). Part 1 answer 'always' right but reason garbled ('multiplying by 2 or something reducible to 2'); correct reason: one of the two consecutive integers is even."
     }
    ],
    "status": "active"
@@ -889,8 +896,8 @@
    "box": 1,
    "warn": 0,
    "created": "2026-10-21 (Lesson #16)",
-   "last_tested": "2026-11-10",
-   "next_due": "2026-11-11",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "seeded by WR1 (about 4.5 provisional: three theses in one essay, examples that cut the other way, a circling structure; the rewritten thesis was 60 words in three sentences with no qualification; target one sentence, ≤ 40 words, with an \"except when\"). **Nov 2 (cold, unrated): ✘** answered \"taking a position\" (that is a 4); the qualified one-sentence thesis, the named examples and the answered counterargument were not given. WR2 (Wed Nov 4) is the repair. 2026-11-04: Nov 4 WR2: thesis took two positions (mouthpiece vs own judgment), ~45 words; except-when supported the main claim. Repeat WR2 once more. 2026-11-06: 2026-11-06 essay (handwritten, untimed): thesis ~95 words, third time too long; model in C065",
    "log": [
     {
@@ -899,6 +906,12 @@
      "lesson": 22,
      "conf": "sure",
      "note": "Nov 10: nuanced thesis + exceptions ok; missing named examples, strongest counterargument, one-sentence X because Y except when Z; 'extent' = pure yes/no is 4 at best"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "note": "Qualified thesis X because Y except Z right; no named examples, no strongest counterargument answered."
     }
    ],
    "status": "active"
@@ -1532,8 +1545,8 @@
    "q": "A town's grain sells 100 sacks at 10 coins. A ceiling of 6 cuts supply to 60 sacks while buyers want 140. Name the 80-sack gap, the 40 lost trades, and say what deadweight loss is.",
    "a": "The 80-sack gap is a shortage (a paucity at the capped price): 140 wanted minus 60 supplied. It splits into 40 sacks that used to trade (100 to 60, the lost trades) plus 40 from new buyers the low price pulled in. Deadweight loss is the surplus (gains, in coins) from the lost trades: farmer and buyer would both have gained and no longer trade. A ceiling below equilibrium makes a shortage; a floor above it makes a surplus (a plethora).",
    "created": "2026-11-03 (Lesson #19)",
-   "last_tested": "2026-11-10",
-   "next_due": "2026-11-11",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
    "log": [
     {
@@ -1542,6 +1555,12 @@
      "lesson": 22,
      "conf": "sure",
      "note": "Nov 10: gap = shortage ok; called the 40 lost trades the whole 80 gap (missing the 40 new buyers); DWL = value of lost trades given loosely"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "note": "Gap = shortage ok; called the 40 lost trades 'deadweight loss' (3rd time conflating); no 40 new buyers; DWL = lost trades, not the surplus on them; blamed a 'shift' not the ceiling."
     }
    ],
    "status": "active"
@@ -1554,8 +1573,8 @@
    "q": "Who bears most of a tax, and does it matter who legally pays it? How does elasticity change the deadweight loss?",
    "a": "The less elastic side (the one that cannot easily walk away) bears more of the tax; it does not matter who legally pays, since a tax on sellers and a tax on buyers split the cost the same way. If buyers are inelastic they keep buying, few trades vanish and the deadweight loss is small. If buyers can switch (rice), many trades vanish and the deadweight loss is large.",
    "created": "2026-11-03 (Lesson #19)",
-   "last_tested": "2026-11-10",
-   "next_due": "2026-11-11",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
    "log": [
     {
@@ -1563,6 +1582,12 @@
      "result": "½",
      "lesson": 22,
      "note": "Nov 10: less elastic side bears more, legal payer irrelevant ok; did not state the DWL direction (inelastic = few trades vanish = small DWL; elastic = large)"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "note": "Less elastic bears more + legal payer irrelevant right; DWL direction not stated again (garbled: 'increases deadweight loss'); inelastic = few trades vanish = small DWL."
     }
    ],
    "status": "active"
@@ -1621,12 +1646,12 @@
    "id": "C062",
    "track": "L",
    "box": 1,
-   "warn": 2,
+   "warn": 1,
    "q": "Argument: 'Since bike lanes were painted on Harbor Street, shop sales fell 8%. Owners rightly blame the lanes. Removing them will restore sales.' What is the MAIN conclusion, and which necessary assumption states the gap in general form? Why is 'sales on other streets did not fall similarly' not necessary?",
    "a": "Main conclusion: removing the lanes will restore sales (the lanes-caused-it claim is the intermediate step). General gap: the decline is not due to a cause that would remain in place after removal (a recession is one instance). Negate it: a persisting cause means removal won't restore, so the conclusion fails. 'Other streets did not fall' is a specific no-confounder answer: its negation (they fell similarly) does not break the argument, since the lanes could still be one cause. Prephrase the GENERAL gap, then pick the choice that states it; do not pick the answer matching your first guess.",
    "created": "2026-11-04 (Lesson #20)",
-   "last_tested": "2026-11-17",
-   "next_due": "2026-11-18",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "2026-11-17: Nov 17 retest (new bridge item): main conclusion and intermediate conclusion both right when asked cold on a fresh argument; gap stated as 'something else didn't cause the fall' (ok in general form)",
    "log": [
     {
@@ -1641,6 +1666,12 @@
      "result": "✘",
      "lesson": 24,
      "note": "Nov 17: main conclusion again given as the intermediate 'lanes caused the fall' (2nd miss in a row); gap given as the counterfactual 'no lanes -> no fall' (restates the intermediate step), not 'the cause would not persist after removal'; 'other streets' part ok (negation does not break it)"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "✔",
+     "lesson": 25,
+     "note": "Fresh Elm St meters item: main conclusion right cold; gap as 'not another reason, like cold weather' (general enough; did not say 'a cause that would persist after removal'). Other-streets part not asked."
     }
    ],
    "status": "active"
@@ -1805,29 +1836,44 @@
   {
    "id": "C068",
    "track": "L",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "q": "How do you find the main conclusion and label roles in an argument? Apply it: A critic says X is a waste because the count was low; the author says the count was taken in exam week so it cannot show X is a waste, and so the council should wait for a normal month. What is the main conclusion, what is the role of the count cannot show X is a waste, and what is a concession?",
    "a": "Label each sentence C (main conclusion), I (intermediate conclusion: supported, and supports another), P (premise), O (opposing view or concession). Main conclusion = the sentence everything else is a reason for (here: the council should wait). The count-cannot-show sentence is an INTERMEDIATE conclusion (exam week supports it, it supports wait). A reported view (Some say X) belongs to the speaker, not the author; the author's This is mistaken is the conclusion, with the author's hedge (not always). A concession (of course, granted) limits the claim, is never the conclusion, and is answered by the but after it. Nov 10: he picked the intermediate step as the main conclusion (not necessarily a waste).",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-23",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-18",
+     "result": "✔",
+     "lesson": 25,
+     "conf": "sure",
+     "note": "Main conclusion (council should wait) and test ('sentence all others support') right; role of count-cannot-show given as supporting the main conclusion, did not say it is itself supported by exam week (intermediate)."
+    }
+   ],
    "status": "active"
   },
   {
    "id": "C069",
    "track": "E",
-   "box": 1,
+   "box": 2,
    "warn": 0,
    "q": "Define stock and flow and say how they are linked. A country has debt of 30 trillion; the deficit fell from 1.5 to 1.0 trillion; a politician says we have cut the debt by a third. Right or wrong? A lake loses 1 million liters a month net; the town cuts the outflow by half a million: does it stop shrinking?",
    "a": "Stock = an amount at one moment (a level you can photograph); flow = an amount PER UNIT OF TIME (a rate). A stock changes only through its flows: new = old + inflow - outflow, times the time elapsed. The deficit (flow) fell by a third, but the debt (stock) still rose by 1 trillion; debt falls only when the flow turns negative (a surplus). The lake still shrinks, at half the pace (-0.5 a month): cutting an outflow slows the loss, it does not reverse it. Nov 12: he gave stock = fixed amount and flow = moving money, without per unit of time or the link.",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-23",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-18",
+     "result": "✔",
+     "lesson": 25,
+     "note": "Stock = snapshot, flow = rate; politician wrong because the deficit (flow) fell a third, not the debt (stock). Missing: debt still rose 1 trillion; falls only with a surplus."
+    }
+   ],
    "status": "active"
   },
   {
@@ -1838,10 +1884,18 @@
    "q": "GRE Sentence Equivalence: how many answers do you pick, what must be true of them, and what are the three traps?",
    "a": "Pick TWO of six; both must complete the sentence AND mean nearly the same (no partial credit). Method: predict your own word, then find its partner among the choices. Traps: (1) a word that fits the sentence loosely but has NO synonym partner (ostensible next to hollow/insincere); (2) a synonym pair that does not fit the sentence logic (an opposite pair, e.g. trenchant vs fatuous/inane); (3) two words that both fit but differ in meaning. Nov 10: first read it as one answer per item; after re-explanation got 6/6.",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "",
-   "next_due": "2026-11-13",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "conf": "unsure",
+     "note": "Pick 2 right; had to ask what the format is; thought it was 2 synonyms per blank; no traps given. Format: one blank, six choices, pick the two that fit AND match in meaning."
+    }
+   ],
    "status": "active"
   },
   {
@@ -1928,8 +1982,8 @@
    "confusable": "frugal (approving), miserly (harsher), prodigal (opposite)",
    "example": "A parsimonious budget cuts the outflow to the bone.",
    "created": "2026-11-12 (Lesson #22)",
-   "last_tested": "2026-11-17",
-   "next_due": "2026-11-18",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
    "log": [
     {
@@ -1939,6 +1993,13 @@
      "conf": "unsure",
      "format": "cloze",
      "note": "Nov 17: answered spendthrift (the opposite); said he would recognise the word; no meaning"
+    },
+    {
+     "date": "2026-11-18",
+     "result": "½",
+     "lesson": 25,
+     "format": "produce",
+     "note": "Sentence usage ok (parsimonious principles at home); meaning 'excessively spendthrift, or austere with money': spendthrift is the OPPOSITE (2nd time). Reteach with frugal / prodigal."
     }
    ],
    "status": "active"
@@ -2036,10 +2097,18 @@
    "confusable": "jejune (naive/shallow, of ideas), juvenile",
    "example": "The senators' puerile name-calling made the hearing impossible to take seriously.",
    "created": "2026-11-16 (Lesson #23)",
-   "last_tested": "",
-   "next_due": "2026-11-17",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-18",
+     "result": "✘",
+     "lesson": 25,
+     "format": "cloze",
+     "note": "Answered fatuous (V023) for puerile; no meaning given."
+    }
+   ],
    "status": "active"
   },
   {
@@ -2095,10 +2164,19 @@
    "confusable": "stagnate (no growth), calcify (near-synonym, more physical)",
    "example": "A bureaucracy that ignores every complaint soon ossifies.",
    "created": "2026-11-17 (Lesson #24)",
-   "last_tested": "",
-   "next_due": "2026-11-18",
+   "last_tested": "2026-11-18",
+   "next_due": "2026-11-19",
    "history": "",
-   "log": [],
+   "log": [
+    {
+     "date": "2026-11-18",
+     "result": "✘",
+     "lesson": 25,
+     "conf": "unsure",
+     "format": "cloze",
+     "note": "Answered disintegrate; said he did not know the word. ossify = harden into rigid form, stop adapting."
+    }
+   ],
    "status": "active"
   },
   {
@@ -2115,6 +2193,96 @@
    "last_tested": "",
    "next_due": "2026-11-18",
    "history": "",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C079",
+   "track": "P",
+   "box": 1,
+   "warn": 0,
+   "q": "Machiavelli, The Prince ch. 17: state his claim WITH its hedge, his reason for distrusting love, and what a feared ruler must avoid.",
+   "a": "Both love and fear if possible; since they are hard to combine, it is much safer to be feared than loved IF one of the two has to be lacking (dropping the hedge misstates him). Reason: love is a link of obligation that men break whenever it pays them (self-interest, not passion); fear is a dread of punishment that never fails (it changes the payoff). Limit: avoid HATRED: the feared ruler must keep his hands off his subjects' property and women (men forget a father's death sooner than a lost inheritance).",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Nov 18: pretest, check and explain-back all good; reason first given as irrationality of love, corrected to calculation/advantage.",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C080",
+   "track": "WR",
+   "box": 1,
+   "warn": 0,
+   "q": "A thesis says a leader may defy popularity to be effective, 'for the sake of the people'. The strongest counterargument is Stalin and Mao. What kind of limit ('except when ...') answers it, and what is the form and length of the thesis?",
+   "a": "The limit must be a TEST the dictators could not pass, not a restatement of 'for the people': e.g. 'except when the decision cannot later face democratic scrutiny' (answerable afterwards to voters, courts, press). Form: ONE sentence, 40 words or fewer: claim, because reason, except when limit. Model (26 words): 'Leaders may rightly choose effectiveness over popularity, because support is only a means to carrying out policy, except when the decision cannot later face democratic scrutiny.' Count the words.",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Nov 18: limit as a test came on the 2nd try (first try 'only for the sake of the people' = the dictator's own phrase); still two sentences, ~52 words, no count.",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C081",
+   "track": "L",
+   "box": 1,
+   "warn": 0,
+   "q": "An author reports a view ('commentators claim X shows Y'), says 'this claim is mistaken', gives a premise, then a 'so' sentence. Which sentence is the main conclusion, how do you test it, and what do you check about the choices?",
+   "a": "The main conclusion is the negation of the reported view (X does not show Y): the author's own verdict. Test: which sentence are all the others reasons for? The 'so' sentence is usually the intermediate step (premise -> so-sentence -> verdict). Write the conclusion in your own words BEFORE reading the choices, then check scope words (alone, always, never): a choice can be too strong (a main-point choice that denies any evidence could ever show Y) or the intermediate step may be a near-twin.",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Nov 18: picked the intermediate sentence (D) over the verdict (B) on the rent-cap item; pushed back on scope ('alone'); item wording of B and D was too close, no pattern credit.",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "C082",
+   "track": "GV",
+   "box": 1,
+   "warn": 0,
+   "q": "GRE 'select ALL that apply' passage item: what is the first thing you do, and how do you judge each choice?",
+   "a": "Read the instruction line first ('all that apply', 'select two', 'select the sentence'): it decides the whole item; there may be one correct answer or several, and no partial credit. Judge each choice on its own against the passage: supported (stated or follows) = pick; says MORE than the passage, contradicts it, or is only topic-related = leave. 'Too specific' is not a flaw if the passage states it directly.",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Nov 18: picked only C of B+C on the ch. 17 item; said he had not read 'select all'.",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V035",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "pusillanimous",
+   "meaning": "cowardly; timid, lacking the courage to face hard choices",
+   "use": "describes a person or leader, with contempt; stronger than cautious",
+   "confusable": "pugnacious (opposite spirit: eager to fight), timorous (shy-timid, milder), prudent (approving)",
+   "example": "Machiavelli would call a prince too squeamish to punish when necessary pusillanimous.",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Used right in a joke on Nov 18, no meaning given",
+   "log": [],
+   "status": "active"
+  },
+  {
+   "id": "V036",
+   "track": "V",
+   "box": 1,
+   "warn": 0,
+   "word": "obsequious",
+   "meaning": "fawning; too eager to please or obey, to win favour",
+   "use": "describes courtiers, subordinates, flatterers; disapproving",
+   "confusable": "servile (similar, more abject), sycophant (the person), deferential (approving)",
+   "example": "The obsequious courtiers told the prince only what he wanted to hear.",
+   "created": "2026-11-18 (Lesson #25)",
+   "last_tested": "",
+   "next_due": "2026-11-19",
+   "history": "Used right on Nov 18, no meaning given",
    "log": [],
    "status": "active"
   }
